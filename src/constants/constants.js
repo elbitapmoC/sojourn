@@ -44,3 +44,21 @@ export const TimeLineData = [
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
 ];
+
+export const logo = {
+  src: '/images/logo_face-r.svg',
+  alt: 'Humming Bird Illustration, a migratory animal. A Sojourner-- A temporary resident'
+}
+
+export const apercuBold = {
+  font: '/fonts/apercu_bd.otf',
+  weight: '700'
+}
+
+export const apercuRegular = {
+  font: '/fonts/apercu_rg.otf',
+  weight: '400'
+}
+export const galliant = {
+  font: '/fonts/gallient.ttf'
+}
