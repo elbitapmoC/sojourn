@@ -32,16 +32,25 @@ static async getInitialProps(ctx) {
       <Html lang='en-GB'>
         <Head>
           <link
-            rel="stylesheet"
+            rel="preload"
             href="/fonts/apercu_bd.otf"
+            as="font"
+            type="font/otf"
+            crossOrigin=""
           />
           <link
-            rel="stylesheet"
+            rel="preload"
             href="/fonts/apercu_rg.otf"
+            as="font"
+            type="font/otf"
+            crossOrigin=""
           />
           <link
-            rel="stylesheet"
+            rel="preload"
             href="/fonts/gallient.ttf"
+            as="font"
+            type="font/ttf"
+            crossOrigin=""
           />
         </Head>
         <body>

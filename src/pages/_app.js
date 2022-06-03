@@ -1,17 +1,17 @@
-// import Theme from '../styles/theme';
+import Theme from '../styles/theme';
 import { createGlobalStyle } from "styled-components";
 
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: 'apercu-rg';
+    font-family: 'apercu_rg';
     src: url('/fonts/apercu_rg.otf') format('otf');
     font-style: normal;
     font-weight: 400;
     font-display: swap;
   }
   @font-face {
-    font-family: 'apercu-bd';
+    font-family: 'apercu_bd';
     src: url('/fonts/apercu_bd.otf') format('otf');
     font-style: bold;
     font-weight: 700;
@@ -25,13 +25,14 @@ const GlobalStyle = createGlobalStyle`
     font-display: swap;
   }
 `;
+
 function App({ Component, pageProps }) {
   return (
     <>
-      {/* <Theme> */}
+      <Theme>
         <GlobalStyle />
         <Component {...pageProps} />
-      {/* </Theme> */}
+      </Theme>
     </>
   );
 }

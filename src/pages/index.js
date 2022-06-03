@@ -12,6 +12,7 @@ const Test1 = styled.span`
   font-family: 'apercu-rg'; 
   color: purple;
 `;
+
 const Test2 = styled.span`
   font-size: 40px;
   font-family: 'gallient'; 
@@ -22,8 +23,8 @@ const Home = () => {
   return (
     <Layout>
         <main>
-          <Test1>Test1</Test1>
-          <Test2>Test2</Test2>
+          <Test1>Test 1</Test1>
+          <Test2>Test 2</Test2>
         </main>
         <Hero />
         <Projects />
