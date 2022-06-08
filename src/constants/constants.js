@@ -46,6 +46,18 @@ export const TimeLineData = [
 ];
 
 export const logo = {
-  src: '/images/logo_face-r.svg',
+  src: '/images/logo.svg',
   alt: 'Humming Bird Illustration, a migratory animal. A Sojourner-- A temporary resident'
+}
+
+export const flower = {
+  src: '/images/flowers.svg',
+  alt: 'Illustrations of flowers, olives branches, and bushes together'
+}
+
+export const hats = {
+  web: '/images/web-hat.svg',
+  webalt: 'one of the hats I would wear, web developer',
+  product: '/images/web2-hat.svg',
+  productalt: 'one of the hats I would wear, product designer'
 }

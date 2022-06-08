@@ -1,19 +1,12 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+import { AboutContainer, AboutDescription, AboutTitle } from './AcomplishmentsStyles';
 
 const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
+  <AboutContainer>
+    <AboutTitle>here’s the story</AboutTitle>
+    <AboutDescription>The great resignation&mdash; over 47 million Americans voluntarily quit their jobs&mdash; an unprecedented mass exit from the workforce. During this time, it was more of a calling to hone in on the things I love most, learning, helping out &amp; utilizing my expertise.</AboutDescription>
+  </AboutContainer>
 );
 
 export default Acomplishments;

@@ -1,19 +1,25 @@
 import styled from 'styled-components';
 
 export const NavContainer = styled.nav`
-  margin-top: 4.8rem;
+  position: absolute;
+  max-width: 1920px;
+  margin: 0 auto;
+  left: 7.2rem;
+  right: 7.2rem;
+  top: 4.8rem;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   background-color: white;
   @media ${(props) => props.theme.breakpoints.sm} {
   }
 `;
 
 export const LinksContainer = styled.div`
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 700px;
+  max-width: 600px;
   width: 100%;
   margin: 0 3.2rem 0 auto;
 `;
@@ -25,13 +31,19 @@ export const NavLink = styled.a`
   color: #1a1a1a;
   transition: 0.4s ease;
   &:hover {
-    color: #23005B;
+    color: #BD9FEE;
     opacity: 1;
     cursor: pointer;
   }
 `;
 
 export const LogoStyling = styled.img`
-  padding: 12px 12px 12px 12px;
-  background-color: #0F1624;
+  padding: 8px 8px 8px 3.2rem;
+`
+
+export const Background = styled.img`
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  z-index: -1;
 `

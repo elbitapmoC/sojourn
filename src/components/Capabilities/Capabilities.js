@@ -1,12 +1,21 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './CapabilitiesStyles';
+import { hats } from '../../constants/constants';
+import { CapabilitiesTitle, CapabilitiesContainer, FirstHat, SecondHat, HatDescription, HatsContainer  } from './CapabilitiesStyles';
 
 const Capabilities = () =>  (
-  <div>
-    Capabilities
-  </div>
+    <CapabilitiesContainer>
+      <CapabilitiesTitle>my different hats</CapabilitiesTitle>
+        <HatsContainer>
+          <FirstHat className='emphText'>
+          <img src={hats.web} alt={hats.webalt} />
+        <HatDescription>Web Developer</HatDescription>
+      </FirstHat>
+      <SecondHat className='emphText'>
+        <img src={hats.product} alt={hats.productalt} />
+        <HatDescription>Product Designer</HatDescription>
+      </SecondHat>
+      </HatsContainer>
+  </CapabilitiesContainer>
 );
 
 export default Capabilities;

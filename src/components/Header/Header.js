@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
-import { NavContainer, LogoStyling, NavLink, LinksContainer } from './HeaderStyles';
-import { logo } from '../../constants/constants';
+import { NavContainer, LogoStyling, NavLink, LinksContainer, Background } from './HeaderStyles';
+import { logo, flower } from '../../constants/constants';
 
 const Header = () =>  (
+  <>
+  <Background src={flower.src} alt={flower.alt} />
   <NavContainer>
     <Link href="/">
       <LogoStyling src={logo.src} alt={logo.alt} />
@@ -32,6 +34,7 @@ const Header = () =>  (
       </li>        
     </LinksContainer>
   </NavContainer>
+  </>
 );
 
 export default Header;
