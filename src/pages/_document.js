@@ -32,13 +32,12 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+          <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link
             rel="preload"
             href="/fonts/gallient.ttf"
             as="font"
             type="font/ttf"
-            crossOrigin=""
           />
           <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
         </Head>
