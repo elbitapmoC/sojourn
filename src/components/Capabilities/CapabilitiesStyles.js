@@ -1,11 +1,11 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from "styled-components";
 
 export const CapabilitiesContainer = styled.section`
-  height: 75vh;
+  margin-top: 48rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
-`
+`;
 
 export const HatsContainer = styled.section`
   display: flex;
@@ -13,7 +13,7 @@ export const HatsContainer = styled.section`
   width: 100%;
   grid-template-columns: auto;
   grid-template-rows: auto 1fr;
-`
+`;
 
 export const HatDescription = styled.p`
   margin-top: 1.2rem;
@@ -21,7 +21,7 @@ export const HatDescription = styled.p`
 
 export const CapabilitiesTitle = styled.section`
   text-align: center;
-  font-family: 'gallient';
+  font-family: "gallient";
   font-weight: normal;
   font-size: 10.8rem;
   margin-bottom: 6.4rem;
@@ -41,5 +41,5 @@ export const FirstHat = styled.aside`
 
 export const SecondHat = styled.aside`
   ${baseHatStyles}
-    margin-left: 6.4rem;
+  margin-left: 6.4rem;
 `;

@@ -1,12 +1,10 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const NavContainer = styled.nav`
-  position: absolute;
+  position: relative;
   max-width: 1920px;
   margin: 0 auto;
-  left: 7.2rem;
-  right: 7.2rem;
-  top: 4.8rem;
+  margin-top: 4.8rem;
   display: grid;
   grid-template-columns: auto 1fr;
   background-color: white;
@@ -31,7 +29,7 @@ export const NavLink = styled.a`
   color: #1a1a1a;
   transition: 0.4s ease;
   &:hover {
-    color: #BD9FEE;
+    color: #d72929;
     opacity: 1;
     cursor: pointer;
   }
@@ -39,11 +37,11 @@ export const NavLink = styled.a`
 
 export const LogoStyling = styled.img`
   padding: 8px 8px 8px 3.2rem;
-`
+`;
 
 export const Background = styled.img`
   position: absolute;
   right: 0rem;
   top: 0rem;
   z-index: -1;
-`
+`;

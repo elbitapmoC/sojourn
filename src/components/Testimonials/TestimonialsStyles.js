@@ -16,7 +16,7 @@ export const ProjectTitle = styled.section`
 export const Img = styled.img`
   margin-top: 4.8rem;
   &:not(:last-child) {
-    margin-right: 4.8rem;
+    margin-right: 10rem;
   }
 `;
 

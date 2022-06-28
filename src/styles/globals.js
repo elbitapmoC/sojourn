@@ -1,5 +1,8 @@
-import { createGlobalStyle } from 'styled-components';
-import { normalize } from 'styled-normalize';
+import { createGlobalStyle } from "styled-components";
+import { normalize } from "styled-normalize";
+import "tailwindcss/base";
+import "tailwindcss/components";
+import "tailwindcss/utilities";
 
 const GlobalStyles = createGlobalStyle`
   ${normalize};
@@ -15,14 +18,14 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     font-size: 1.6rem;
-    background: ${props => props.theme.colors.background1};
-    color: ${props => props.theme.colors.primary1};
+    background: ${(props) => props.theme.colors.background1};
+    color: ${(props) => props.theme.colors.primary1};
     font-family: 'Lato';
     font-weight: normal;
     cursor: default;
   }
   h1,h2,h3,h4,h5,h6,button {
-    font-family: ${props => props.theme.fonts.title};
+    font-family: ${(props) => props.theme.fonts.title};
   }
   a {
     text-decoration: none;
@@ -31,7 +34,7 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
   .emphText {
-    color: ${props => props.theme.colors.lightPurple};
+    color: ${(props) => props.theme.colors.brightRed};
   }
 `;
 
