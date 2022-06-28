@@ -1,9 +1,15 @@
-import Link from 'next/link';
-import React from 'react';
-import { NavContainer, LogoStyling, NavLink, LinksContainer, Background } from './HeaderStyles';
-import { logo, flower } from '../../constants/constants';
+import Link from "next/link";
+import React from "react";
+import {
+  NavContainer,
+  LogoStyling,
+  NavLink,
+  LinksContainer,
+  Background,
+} from "./HeaderStyles";
+import { logo, flower } from "../../constants/constants";
 
-const Header = () =>  (
+const Header = () => (
   <>
     <Background src={flower.src} alt={flower.alt} />
     <NavContainer>
@@ -13,7 +19,7 @@ const Header = () =>  (
 
       <LinksContainer>
         <li>
-          <Link href="#capabilities">
+          <Link href="#hats">
             <NavLink>Capabilities.</NavLink>
           </Link>
         </li>
@@ -21,17 +27,17 @@ const Header = () =>  (
           <Link href="#about">
             <NavLink>About.</NavLink>
           </Link>
-        </li>        
+        </li>
         <li>
           <Link href="#work">
             <NavLink>Work.</NavLink>
           </Link>
-        </li>    
+        </li>
         <li>
           <Link href="#contact">
             <NavLink>Contact.</NavLink>
           </Link>
-        </li>        
+        </li>
       </LinksContainer>
     </NavContainer>
   </>

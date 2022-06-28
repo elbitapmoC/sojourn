@@ -8,9 +8,8 @@ import {
   HatDescription,
   HatsContainer,
 } from "./CapabilitiesStyles";
-
 const Capabilities = () => (
-  <CapabilitiesContainer>
+  <CapabilitiesContainer id="hats">
     <CapabilitiesTitle>my different hats</CapabilitiesTitle>
     <HatsContainer>
       <FirstHat className="emphText">

@@ -1,8 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 import { normalize } from "styled-normalize";
-import "tailwindcss/base";
-import "tailwindcss/components";
-import "tailwindcss/utilities";
 
 const GlobalStyles = createGlobalStyle`
   ${normalize};
@@ -35,6 +32,19 @@ const GlobalStyles = createGlobalStyle`
   }
   .emphText {
     color: ${(props) => props.theme.colors.brightRed};
+  }
+  .spinning {
+    animation: rotate 21s linear infinite;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 `;
 

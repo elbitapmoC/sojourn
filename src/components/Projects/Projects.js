@@ -1,5 +1,5 @@
 import React from "react";
-import { featured } from "../../constants/constants";
+import { featured, circle } from "../../constants/constants";
 import "react-multi-carousel/lib/styles.css";
 import {
   ProjectsContainer,
@@ -14,8 +14,8 @@ import {
 } from "./ProjectsStyles";
 
 const Projects = () => (
-  <ProjectsContainer>
-    <ProjectTitle>Featured Works</ProjectTitle>
+  <ProjectsContainer id="work">
+    <ProjectTitle>featured works</ProjectTitle>
     <ProjectCardContainer>
       {featured.map((p, i) => {
         return (

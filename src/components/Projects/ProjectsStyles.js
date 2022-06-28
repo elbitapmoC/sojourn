@@ -28,11 +28,12 @@ export const Heading = styled.p`
   color: #f2f2f2;
 `;
 
-export const CardInfo = styled.p``;
-
 export const ProjectCardContainer = styled.aside`
-  background-color: ${(props) => props.theme.colors.primary1};
-  // height: 400px;
+  background: linear-gradient(
+    180deg,
+    ${(props) => props.theme.colors.primary1} 0%,
+    black 100%
+  );
   position: relative;
   padding-top: 4.8rem;
   padding-left: 9.6rem;

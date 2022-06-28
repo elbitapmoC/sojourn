@@ -125,6 +125,11 @@ export const logo = {
   alt: "Humming Bird Illustration, a migratory animal. A Sojourner-- A temporary resident",
 };
 
+export const circle = {
+  src: "/images/circle.svg",
+  alt: "Words create trust. Words give perspectiv. Words have power. Hear some of the words people had to say about Bazell.",
+};
+
 export const flower = {
   src: "/images/flowers.svg",
   alt: "Illustrations of flowers, olives branches, and bushes together",

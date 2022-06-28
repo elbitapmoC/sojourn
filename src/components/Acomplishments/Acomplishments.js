@@ -9,7 +9,7 @@ import {
 } from "./AcomplishmentsStyles";
 
 const Acomplishments = () => (
-  <AboutContainer>
+  <AboutContainer id="about">
     <AboutTitle>here&#8217;s the story</AboutTitle>
     <AboutDescription>
       The great resignation&mdash; over 47 million Americans voluntarily quit
