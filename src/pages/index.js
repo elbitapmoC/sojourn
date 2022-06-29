@@ -5,16 +5,27 @@ import Capabilities from "../components/Capabilities/Capabilities";
 import Testimonials from "../components/Testimonials/Testimonials";
 import { Layout } from "../layout/Layout";
 import CTA from "../components/CTA/CTA";
+import Fade from "react-reveal/Fade";
 
 const Home = () => {
   return (
     <Layout>
       <Hero />
-      <Capabilities />
-      <Acomplishments />
-      <Projects />
-      <Testimonials />
-      <CTA />
+      <Fade bottom>
+        <Capabilities />
+      </Fade>
+      <Fade bottom>
+        <Acomplishments />
+      </Fade>
+      <Fade bottom>
+        <Projects />
+      </Fade>
+      <Fade bottom>
+        <Testimonials />
+      </Fade>
+      <Fade bottom>
+        <CTA />
+      </Fade>
     </Layout>
   );
 };

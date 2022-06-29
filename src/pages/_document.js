@@ -41,13 +41,15 @@ export default class MyDocument extends Document {
             format="truetype"
           /> */}
           <link
-            href="http://fonts.cdnfonts.com/css/gallient"
+            href="https://fonts.cdnfonts.com/css/gallient"
             rel="stylesheet"
           />
           <link
             href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
             rel="stylesheet"
           />
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         </Head>
         <body>
           <Main />

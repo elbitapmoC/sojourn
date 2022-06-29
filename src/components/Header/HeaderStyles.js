@@ -37,6 +37,9 @@ export const NavLink = styled.a`
 
 export const LogoStyling = styled.img`
   padding: 8px 8px 8px 3.2rem;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const Background = styled.img`

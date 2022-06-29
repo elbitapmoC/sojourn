@@ -19,22 +19,22 @@ const Header = () => (
 
       <LinksContainer>
         <li>
-          <Link href="#hats">
+          <Link href="./#hats">
             <NavLink>Capabilities.</NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#about">
+          <Link href="./#about">
             <NavLink>About.</NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#work">
+          <Link href="./#work">
             <NavLink>Work.</NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#contact">
+          <Link href="./#contact">
             <NavLink>Contact.</NavLink>
           </Link>
         </li>

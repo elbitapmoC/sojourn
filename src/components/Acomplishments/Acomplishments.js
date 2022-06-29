@@ -16,7 +16,7 @@ const Acomplishments = () => (
       their jobs&mdash; an unprecedented mass exit from the workforce. Keep
       reading to find out WHY this is important.
     </AboutDescription>
-    <Link href="#about">
+    <Link href="./about">
       <AboutButton>Keep Reading</AboutButton>
     </Link>
   </AboutContainer>
