@@ -46,7 +46,7 @@ export const TagList = styled.ul`
   margin-top: 2.4rem;
 `;
 
-export const ImageList = styled.ul`
+export const ImageList = styled.aside`
   margin-top: 2.4rem;
   display: flex;
   justify-content: center;
@@ -61,3 +61,5 @@ export const Tag = styled.li`
     opacity: 100%;
   }
 `;
+
+export const ProjectsButton = styled.a``;

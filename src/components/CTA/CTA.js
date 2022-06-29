@@ -14,7 +14,7 @@ const CTA = () => (
     <AboutDescription>
       I can’t see into it (the future) but can definitely shape it.
     </AboutDescription>
-    <Link href="./contact">
+    <Link href="./#contact">
       <AboutButton>let's build!</AboutButton>
     </Link>
   </AboutContainer>

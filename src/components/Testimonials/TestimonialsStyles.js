@@ -8,7 +8,7 @@ export const Img = styled.img`
   margin-right: 10rem;
 `;
 
-export const ImageList = styled.ul`
+export const ImageList = styled.aside`
   margin-top: 2.4rem;
   display: flex;
   justify-content: center;

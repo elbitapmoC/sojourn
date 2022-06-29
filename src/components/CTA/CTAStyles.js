@@ -35,7 +35,7 @@ export const AboutButton = styled.a`
   padding-bottom: 1.6rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: bold;
   color: ${(props) => props.theme.colors.background1};

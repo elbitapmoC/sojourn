@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <FooterParagraph>&copy; Sojourner LLC | 2022</FooterParagraph>
-      <ul>
+      <aside>
         {socialIcons.map((social, i) => {
           return (
             <Link href={social.href} key={i}>
@@ -24,7 +24,7 @@ const Footer = () => {
             </Link>
           );
         })}
-      </ul>
+      </aside>
     </FooterWrapper>
   );
 };

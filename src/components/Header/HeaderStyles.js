@@ -12,7 +12,7 @@ export const NavContainer = styled.nav`
   }
 `;
 
-export const LinksContainer = styled.div`
+export const LinksContainer = styled.ul`
   font-weight: bold;
   display: flex;
   align-items: center;

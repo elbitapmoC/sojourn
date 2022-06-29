@@ -1,5 +1,7 @@
 import React from "react";
-import { featured, circle } from "../../constants/constants";
+import Link from "next/link";
+
+import { featured } from "../../constants/constants";
 import "react-multi-carousel/lib/styles.css";
 import {
   ProjectsContainer,
@@ -7,9 +9,10 @@ import {
   Tag,
   TagList,
   ImageList,
-  Img,
   ProjectTitle,
   ProjectCardContainer,
+  ProjectsButton,
+  Li,
 } from "./ProjectsStyles";
 
 const Projects = () => (
@@ -28,7 +31,7 @@ const Projects = () => (
             <ImageList>
               {p.images.map((img, i) => {
                 return (
-                  <Img key={i} src={img.src} alt={img.alt} draggable="false" />
+                  <img key={i} src={img.src} alt={img.alt} draggable="false" />
                 );
               })}
             </ImageList>
@@ -36,6 +39,9 @@ const Projects = () => (
         );
       })}
     </ProjectCardContainer>
+    <Link href="./projects">
+      <ProjectsButton>See More projects</ProjectsButton>
+    </Link>
   </ProjectsContainer>
 );
 
