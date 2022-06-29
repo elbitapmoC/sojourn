@@ -106,17 +106,40 @@ export const featured = [
 
 export const companies = [
   {
-    logos: [
-      "/images/amazon.svg",
-      "/images/slm.svg",
-      "/images/att.svg",
-      "/images/ns.svg",
-      "/images/comcast.svg",
-      "/images/pwc.svg",
-      "/images/pfizer.svg",
-      "/images/wf.svg",
-      "/images/hp.svg",
-    ],
+    src: "/images/amazon.svg",
+    alt: "Amazon logo, companies worked with testimonial.",
+  },
+  {
+    src: "/images/att.svg",
+    alt: "AT&T logo, companiies worked work testimonial.",
+  },
+  {
+    src: "/images/ns.svg",
+    alt: "Norfolk Southern Logo, companiies worked work testimonial.",
+  },
+  {
+    src: "/images/comcast.svg",
+    alt: "Comcast logo, companiies worked work testimonial.",
+  },
+  {
+    src: "/images/pwc.svg",
+    alt: "PricewaterhouseCoopers (PwC) logo, companiies worked work testimonial.",
+  },
+  {
+    src: "/images/pfizer.svg",
+    alt: "Pfizer logo, companiies worked work testimonial.",
+  },
+  {
+    src: "/images/wf.svg",
+    alt: "Wells Fargo logo, companiies worked work testimonial.",
+  },
+  {
+    src: "/images/slm.svg",
+    alt: "Sallie Mae logo, companiies worked work testimonial.",
+  },
+  {
+    src: "/images/hp.svg",
+    alt: "HP logo, companiies worked work testimonial.",
   },
 ];
 
@@ -134,6 +157,24 @@ export const flower = {
   src: "/images/flowers.svg",
   alt: "Illustrations of flowers, olives branches, and bushes together",
 };
+
+export const socialIcons = [
+  {
+    src: "/images/tw.svg",
+    alt: "Twitter Icon (Button, nav to Sojourn Twitter)",
+    href: "twitter.com/elbitapmoC",
+  },
+  {
+    src: "/images/gh.svg",
+    alt: "Github Icon (Button, nav to Sojourn Github)",
+    href: "https://github.com/elbitapmoC",
+  },
+  {
+    src: "/images/li.svg",
+    alt: "LinkedIn Icon (Button, nav to Sojourn Linkedin)",
+    href: "https://www.linkedin.com/in/bmpjr/",
+  },
+];
 
 export const hats = {
   web: "/images/web-hat.svg",

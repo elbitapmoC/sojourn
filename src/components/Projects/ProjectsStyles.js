@@ -20,8 +20,6 @@ export const Img = styled.img`
   }
 `;
 
-export const BlogCard = styled.aside``;
-
 export const Heading = styled.p`
   font-size: 4.8rem;
   font-weight: bold;
@@ -34,6 +32,7 @@ export const ProjectCardContainer = styled.aside`
     ${(props) => props.theme.colors.primary1} 0%,
     black 100%
   );
+  border: 5px solid rgba(white, 0.25);
   position: relative;
   padding-top: 4.8rem;
   padding-left: 9.6rem;

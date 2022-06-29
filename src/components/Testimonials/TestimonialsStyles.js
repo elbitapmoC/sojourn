@@ -5,9 +5,7 @@ export const ProjectsContainer = styled.section`
 `;
 
 export const Img = styled.img`
-  &:not(:last-child) {
-    margin-right: 10rem;
-  }
+  margin-right: 10rem;
 `;
 
 export const ImageList = styled.ul`

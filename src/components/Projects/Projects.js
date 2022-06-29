@@ -3,7 +3,6 @@ import { featured, circle } from "../../constants/constants";
 import "react-multi-carousel/lib/styles.css";
 import {
   ProjectsContainer,
-  BlogCard,
   Heading,
   Tag,
   TagList,
@@ -19,7 +18,7 @@ const Projects = () => (
     <ProjectCardContainer>
       {featured.map((p, i) => {
         return (
-          <BlogCard key={i}>
+          <aside key={i}>
             <Heading title>{p.title}</Heading>
             <TagList>
               {p.tags.map((t, i) => {
@@ -28,10 +27,10 @@ const Projects = () => (
             </TagList>
             <ImageList>
               {p.images.map((img, i) => {
-                return <Img src={img} draggable="false" />;
+                return <Img key={i} src={img} draggable="false" />;
               })}
             </ImageList>
-          </BlogCard>
+          </aside>
         );
       })}
     </ProjectCardContainer>

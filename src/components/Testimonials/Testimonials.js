@@ -6,15 +6,16 @@ import Marquee from "react-fast-marquee";
 
 const Testimonials = () => (
   <ProjectsContainer>
-    <Marquee gradient={false} speed={60}>
+    <Marquee gradient={false} delay={0} speed={60}>
       <ImageList>
-        {companies.map((p, i) => {
+        {companies.map((company, i) => {
           return (
-            <li>
-              {p.logos.map((logo, i) => {
-                return <Img src={logo} draggable="false" />;
-              })}
-            </li>
+            <Img
+              key={i}
+              src={company.src}
+              alt={company.alt}
+              draggable="false"
+            />
           );
         })}
       </ImageList>
