@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.section`
   margin-top: 48rem;
+  margin-bottom: 24rem;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -22,7 +24,7 @@ export const AboutTitle = styled.h1`
   font-family: "gallient";
   font-weight: normal;
   font-size: 10.8rem;
-  margin-bottom: 6.4rem;
+  margin-bottom: 2.4rem;
   margin-top: 0;
 `;
 

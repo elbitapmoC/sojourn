@@ -83,11 +83,26 @@ export const featured = [
     description:
       "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
     images: [
-      "/images/dfa-1.png",
-      "/images/dfa-2.png",
-      "/images/dfa-3.png",
-      "/images/dfa-4.png",
-      "/images/dfa-5.png",
+      {
+        src: "/images/dfa-1.png",
+        alt: "Stay relevant and connected in these uncertain times",
+      },
+      {
+        src: "/images/dfa-2.png",
+        alt: "Digital assessment, how fit are you?",
+      },
+      {
+        src: "/images/dfa-3.png",
+        alt: "Learn with tailored, curated content through video, articles, discussions, and more.",
+      },
+      {
+        src: "/images/dfa-4.png",
+        alt: "Grow your mind, grow your experience, grow all around so that you can level up.",
+      },
+      {
+        src: "/images/dfa-5.png",
+        alt: "Sources, people you can trust. Start getting digitally fit today!",
+      },
     ],
     tags: [
       "Angular",
@@ -148,11 +163,6 @@ export const logo = {
   alt: "Humming Bird Illustration, a migratory animal. A Sojourner-- A temporary resident",
 };
 
-export const circle = {
-  src: "/images/circle.svg",
-  alt: "Words create trust. Words give perspectiv. Words have power. Hear some of the words people had to say about Bazell.",
-};
-
 export const flower = {
   src: "/images/flowers.svg",
   alt: "Illustrations of flowers, olives branches, and bushes together",
@@ -162,7 +172,7 @@ export const socialIcons = [
   {
     src: "/images/tw.svg",
     alt: "Twitter Icon (Button, nav to Sojourn Twitter)",
-    href: "twitter.com/elbitapmoC",
+    href: "https://twitter.com/elbitapmoC",
   },
   {
     src: "/images/gh.svg",

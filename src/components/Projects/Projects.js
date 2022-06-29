@@ -27,7 +27,9 @@ const Projects = () => (
             </TagList>
             <ImageList>
               {p.images.map((img, i) => {
-                return <Img key={i} src={img} draggable="false" />;
+                return (
+                  <Img key={i} src={img.src} alt={img.alt} draggable="false" />
+                );
               })}
             </ImageList>
           </aside>
