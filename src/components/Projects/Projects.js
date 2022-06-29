@@ -12,7 +12,7 @@ import {
   ProjectTitle,
   ProjectCardContainer,
   ProjectsButton,
-  Li,
+  Img,
 } from "./ProjectsStyles";
 
 const Projects = () => (
@@ -31,7 +31,7 @@ const Projects = () => (
             <ImageList>
               {p.images.map((img, i) => {
                 return (
-                  <img key={i} src={img.src} alt={img.alt} draggable="false" />
+                  <Img key={i} src={img.src} alt={img.alt} draggable="false" />
                 );
               })}
             </ImageList>

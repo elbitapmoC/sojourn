@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const ProjectsContainer = styled.section`
   margin-top: 48rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const ProjectTitle = styled.section`
@@ -38,6 +41,7 @@ export const ProjectCardContainer = styled.aside`
   padding-top: 4.8rem;
   padding-left: 9.6rem;
   padding-right: 9.6rem;
+  margin-bottom: 2.4rem;
 `;
 
 export const TagList = styled.ul`
@@ -49,7 +53,6 @@ export const TagList = styled.ul`
 export const ImageList = styled.aside`
   margin-top: 2.4rem;
   display: flex;
-  justify-content: center;
 `;
 
 export const Tag = styled.li`
@@ -62,4 +65,20 @@ export const Tag = styled.li`
   }
 `;
 
-export const ProjectsButton = styled.a``;
+export const ProjectsButton = styled.a`
+  border: 3px solid rgba(52, 52, 52, 0.1);
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-flex;
+  align-self: center;
+  &:hover {
+    cursor: pointer;
+    color: ${(props) => props.theme.colors.background1};
+    background-color: ${(props) => props.theme.colors.brightRed};
+  }
+`;

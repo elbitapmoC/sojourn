@@ -33,13 +33,6 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          {/* <link
-            rel="preload"
-            href="/fonts/gallient.ttf"
-            as="font"
-            type="truetype"
-            format="truetype"
-          /> */}
           <link
             href="https://fonts.cdnfonts.com/css/gallient"
             rel="stylesheet"
