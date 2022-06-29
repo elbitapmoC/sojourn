@@ -159,7 +159,7 @@ export const companies = [
 ];
 
 export const logo = {
-  src: "/images/logo.svg",
+  src: "/images/logo-alt.svg",
   alt: "Humming Bird Illustration, a migratory animal. A Sojourner-- A temporary resident",
 };
 
