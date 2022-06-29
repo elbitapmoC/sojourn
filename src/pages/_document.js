@@ -43,6 +43,7 @@ export default class MyDocument extends Document {
           />
           <meta charset="UTF-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="Sojourner LLC, Inhabitant of the land. Temporary resident." />
         </Head>
         <body>
           <Main />
