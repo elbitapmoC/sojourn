@@ -41,8 +41,8 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
             rel="stylesheet"
           />
-          <meta charset="UTF-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta charSet="UTF-8" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="description"
             content="Sojourner LLC, Inhabitants of the land. Scripture &amp; integrity oriented company. We aim to be as Jacob was to Laban."
