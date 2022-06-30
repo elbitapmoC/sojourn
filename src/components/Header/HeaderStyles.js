@@ -56,10 +56,9 @@ export const Hamburger = styled.div`
 export const NavLinks = styled.ul`
   display: flex;
   list-style: none;
-  padding: 0 0.7vw;
-  justify-content: space-evenly;
+  // padding: 0 0.7vw;
+  // justify-content: space-evenly;
   align-items: center;
-  text-transform: uppercase;
   & li a {
     text-decoration: none;
     margin: 0 2.25vw;
@@ -122,12 +121,10 @@ export const NavLinks = styled.ul`
 
 export const NavLink = styled.a`
   font-size: 2rem;
-  line-height: 32px;
   color: #1a1a1a;
-  transition: 0.4s ease;
+  transition: 0.3s ease-in-out;
   &:hover {
     color: #d72929;
-    opacity: 1;
     cursor: pointer;
   }
 `;
