@@ -2,22 +2,30 @@ import Link from "next/link";
 import React from "react";
 import {
   NavContainer,
-  LogoStyling,
-  NavLink,
-  LinksContainer,
   Background,
+  Logo,
+  Nav,
+  NavLinks,
+  NavLink,
+  Hamburger,
 } from "./HeaderStyles";
 import { logo, flower } from "../../constants/constants";
 
 const Header = () => (
   <>
     <Background src={flower.src} alt={flower.alt} />
-    <NavContainer>
-      <Link href="/">
-        <LogoStyling src={logo.src} alt={logo.alt} />
-      </Link>
-
-      <LinksContainer>
+    <Nav>
+      <Logo>
+        <Link href="./">
+          <img src={logo.src} alt={logo.alt} />
+        </Link>
+      </Logo>
+      <Hamburger>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </Hamburger>
+      <NavLinks>
         <li>
           <Link href="./#hats">
             <NavLink>Capabilities.</NavLink>
@@ -38,8 +46,8 @@ const Header = () => (
             <NavLink>Contact.</NavLink>
           </Link>
         </li>
-      </LinksContainer>
-    </NavContainer>
+      </NavLinks>
+    </Nav>
   </>
 );
 

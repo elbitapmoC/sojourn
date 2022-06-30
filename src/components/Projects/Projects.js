@@ -18,7 +18,7 @@ import {
 const Projects = () => (
   <ProjectsContainer id="work">
     <ProjectTitle>featured works</ProjectTitle>
-    <ProjectCardContainer>
+    {/* <ProjectCardContainer>
       {featured.map((p, i) => {
         return (
           <aside key={i}>
@@ -41,7 +41,7 @@ const Projects = () => (
     </ProjectCardContainer>
     <Link href="./projects">
       <ProjectsButton>See More projects</ProjectsButton>
-    </Link>
+    </Link> */}
   </ProjectsContainer>
 );
 
