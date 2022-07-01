@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
+export const Background = styled.img`
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  z-index: -1;
+`;
+
 export const Container = styled.div`
+  position: relative;
   max-width: 1920px;
   margin-left: auto;
   margin-right: auto;

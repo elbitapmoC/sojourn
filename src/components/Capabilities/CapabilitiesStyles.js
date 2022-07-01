@@ -23,7 +23,7 @@ export const CapabilitiesTitle = styled.section`
   text-align: center;
   font-family: "gallient";
   font-weight: normal;
-  font-size: 10.8rem;
+  font-size: var(--fs_xl);
   margin-bottom: 6.4rem;
 `;
 
@@ -31,7 +31,7 @@ const baseHatStyles = css`
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 3.2rem;
+  font-size: var(--fs_600);
 `;
 
 export const FirstHat = styled.aside`

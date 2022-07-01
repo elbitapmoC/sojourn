@@ -1,12 +1,5 @@
 import styled from "styled-components";
 
-export const Background = styled.img`
-  position: absolute;
-  right: 0rem;
-  top: 0rem;
-  z-index: -1;
-`;
-
 export const Logo = styled.div`
   padding: 1vh 1vw;
   text-align: center;
@@ -20,11 +13,13 @@ export const Logo = styled.div`
 `;
 
 export const Nav = styled.aside`
-  position: relative;
-  margin-top: 4.8rem;
+  position: absolute;
+  top: 4.8rem;
   background-color: white;
   display: flex;
   justify-content: space-between;
+  left: 0;
+  right: 0;
   z-index: 10;
   @media ${(props) => props.theme.breakpoints.sm} {
     position: fixed;
@@ -120,7 +115,7 @@ export const NavLinks = styled.ul`
 `;
 
 export const NavLink = styled.a`
-  font-size: 2rem;
+  font-size: (--fs_400);
   color: #1a1a1a;
   transition: 0.23s ease-in-out;
   &:hover {
@@ -128,13 +123,3 @@ export const NavLink = styled.a`
     cursor: pointer;
   }
 `;
-
-export const aaaa4 = styled.div``;
-
-export const aaaa5 = styled.div``;
-
-export const aaaa6 = styled.div``;
-
-export const aaaa7 = styled.div``;
-
-export const aaaa8 = styled.div``;

@@ -10,7 +10,7 @@ export const FooterWrapper = styled.footer`
 `;
 
 export const FooterParagraph = styled.p`
-  font-size: 2.4rem;
+  font-size: var(--fs_500);
   font-weight: bold;
 `;
 

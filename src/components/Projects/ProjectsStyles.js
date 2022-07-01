@@ -11,7 +11,7 @@ export const ProjectTitle = styled.section`
   text-align: center;
   font-family: "gallient";
   font-weight: normal;
-  font-size: 10.8rem;
+  font-size: var(--fs_xl);
   margin-bottom: 6.4rem;
   margin-top: 0;
 `;
@@ -24,7 +24,7 @@ export const Img = styled.img`
 `;
 
 export const Heading = styled.p`
-  font-size: 4.8rem;
+  font-size: var(--fs_700);
   font-weight: bold;
   color: #f2f2f2;
 `;
@@ -45,7 +45,7 @@ export const ProjectCardContainer = styled.aside`
 
 export const TagList = styled.ul`
   color: rgba(255, 255, 255, 0.6);
-  font-size: 2rem;
+  font-size: var(--fs_400);
   margin-top: 2.4rem;
 `;
 
@@ -70,7 +70,7 @@ export const ProjectsButton = styled.a`
   padding-bottom: 1.6rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 1.6rem;
+  font-size: var(--fs_300);
   text-transform: uppercase;
   font-weight: bold;
   display: inline-flex;

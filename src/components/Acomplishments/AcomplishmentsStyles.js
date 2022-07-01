@@ -13,7 +13,7 @@ export const AboutContainer = styled.section`
 
 export const AboutDescription = styled.p`
   width: 100%;
-  font-size: 3.2rem;
+  font-size: var(--fs_600);
   text-align: center;
   color: ${(props) => props.theme.colors.brightRed};
 `;
@@ -22,7 +22,7 @@ export const AboutTitle = styled.h1`
   text-align: center;
   font-family: "gallient";
   font-weight: normal;
-  font-size: 10.8rem;
+  font-size: var(--fs_xl);
   margin-bottom: 6.4rem;
   margin-top: 0;
 `;
@@ -34,7 +34,7 @@ export const AboutButton = styled.a`
   padding-bottom: 1.6rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 1.6rem;
+  font-size: var(--fs_300);
   text-transform: uppercase;
   font-weight: bold;
   &:hover {

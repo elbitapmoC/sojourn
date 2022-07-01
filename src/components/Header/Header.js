@@ -1,19 +1,10 @@
 import Link from "next/link";
 import React from "react";
-import {
-  NavContainer,
-  Background,
-  Logo,
-  Nav,
-  NavLinks,
-  NavLink,
-  Hamburger,
-} from "./HeaderStyles";
-import { logo, flower } from "../../constants/constants";
+import { Logo, Nav, NavLinks, NavLink, Hamburger } from "./HeaderStyles";
+import { logo } from "../../constants/constants";
 
 const Header = () => (
   <>
-    <Background src={flower.src} alt={flower.alt} />
     <Nav>
       <Logo>
         <Link href="./">
