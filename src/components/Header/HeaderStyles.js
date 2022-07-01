@@ -115,7 +115,7 @@ export const NavLinks = styled.ul`
 `;
 
 export const NavLink = styled.a`
-  font-size: (--fs_400);
+  font-size: var(--fs_400);
   color: #1a1a1a;
   transition: 0.23s ease-in-out;
   &:hover {
