@@ -41,16 +41,24 @@ export const ProjectCardContainer = styled.aside`
     ${(props) => props.theme.colors.primary1} 0%,
     black 100%
   );
+  @media ${(props) => props.theme.breakpoints.lg} {
+    padding-top: 3.6rem;
+    padding-right: 3.6rem;
+    padding-left: 3.6rem;
+  }
 `;
 
 export const TagList = styled.ul`
   color: rgba(255, 255, 255, 0.6);
   font-size: var(--fs_500);
   margin-top: 2.4rem;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    display: flex;
+    flex-wrap: wrap;
+  }
 `;
 
 export const ImageList = styled.aside`
-  margin-top: 2.4rem;
   display: flex;
   overflow: scroll;
 `;
