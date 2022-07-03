@@ -5,6 +5,15 @@ export const Background = styled.img`
   right: 0rem;
   top: 0rem;
   z-index: -1;
+  @media ${(props) => props.theme.breakpoints.xl} {
+    height: clamp(65rem, 40vw + 1rem, 40vw);
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    height: clamp(48rem, 40vw + 1rem, 40vw);
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    height: clamp(36rem, 40vw + 1rem, 40vw);
+  }
 `;
 
 export const Container = styled.div`
@@ -28,12 +37,6 @@ export const Container = styled.div`
     max-width: 640px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    max-width: 640px;
+    max-width: 500px;
   }
-  // sm: 640px
-  // md: 768px
-  // lg: 1024px
-  // xl: 1280px
-  // xxl: 1600px
-  // xxxl: 1984px
 `;

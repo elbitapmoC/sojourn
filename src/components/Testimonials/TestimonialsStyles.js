@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.section`
-  margin-top: 6.4rem;
+  margin-top: 4.8rem;
 `;
 
 export const Img = styled.img`

@@ -13,6 +13,9 @@ export const HatsContainer = styled.section`
   width: 100%;
   grid-template-columns: auto;
   grid-template-rows: auto 1fr;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    flex-direction: column;
+  }
 `;
 
 export const HatDescription = styled.p`
@@ -37,9 +40,15 @@ const baseHatStyles = css`
 export const FirstHat = styled.aside`
   ${baseHatStyles}
   margin-right: 6.4rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-right: unset;
+  }
 `;
 
 export const SecondHat = styled.aside`
   ${baseHatStyles}
   margin-left: 6.4rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-left: unset;
+  }
 `;

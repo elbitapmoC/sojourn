@@ -12,7 +12,7 @@ export const ProjectTitle = styled.section`
   font-family: "gallient";
   font-weight: normal;
   font-size: var(--fs_xl);
-  margin-bottom: 6.4rem;
+  margin-bottom: 4.8rem;
   margin-top: 0;
 `;
 
@@ -26,32 +26,33 @@ export const Img = styled.img`
 export const Heading = styled.p`
   font-size: var(--fs_700);
   font-weight: bold;
-  color: #f2f2f2;
+  color: white;
 `;
 
 export const ProjectCardContainer = styled.aside`
-  background: linear-gradient(
-    180deg,
-    ${(props) => props.theme.colors.primary1} 0%,
-    black 100%
-  );
-  border: 5px solid rgba(white, 0.25);
   position: relative;
   padding-top: 4.8rem;
   padding-left: 9.6rem;
   padding-right: 9.6rem;
   margin-bottom: 2.4rem;
+  border: 5px solid rgba(255, 255, 255, 0.25);
+  background: linear-gradient(
+    180deg,
+    ${(props) => props.theme.colors.primary1} 0%,
+    black 100%
+  );
 `;
 
 export const TagList = styled.ul`
   color: rgba(255, 255, 255, 0.6);
-  font-size: var(--fs_400);
+  font-size: var(--fs_500);
   margin-top: 2.4rem;
 `;
 
 export const ImageList = styled.aside`
   margin-top: 2.4rem;
   display: flex;
+  overflow: scroll;
 `;
 
 export const Tag = styled.li`

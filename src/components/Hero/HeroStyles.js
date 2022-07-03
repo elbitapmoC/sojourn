@@ -12,6 +12,7 @@ export const HeroTextContainer = styled.aside`
 
 export const HeroTitle = styled.h1`
   margin-bottom: 0;
+  margin-top: 3.6rem;
   font-family: "gallient";
   font-size: var(--fs_xl);
   font-weight: normal;
@@ -23,5 +24,4 @@ export const HeroSubtitle = styled.span`
   text-transform: uppercase;
   font-weight: bold;
   font-size: var(--fs_600);
-  margin-bottom: 6.4rem;
 `;

@@ -3,14 +3,22 @@ import { normalize } from "styled-normalize";
 
 const GlobalStyles = createGlobalStyle`
   ${normalize};
-
   :root {
     --fs_xl: 10.8rem;
     --fs_700: 4.8rem;
     --fs_600: 3.2rem;
     --fs_500: 2.4rem;
-    --fs_400: 2rem;
     --fs_300: 1.6rem;
+
+    --space_xxl: 48rem;
+    --space_xl: 24rem;
+    --space_900: 10.8rem;
+    --space_800: 9.6rem;
+    --space_700: 6.4rem;
+    --space_600: 4.8rem;
+    --space_500: 3.2rem;
+    --space_400: 2.4rem;
+    --space_300: 1.6rem;
   }
 
   * {
@@ -44,57 +52,42 @@ const GlobalStyles = createGlobalStyle`
     color: ${(props) => props.theme.colors.brightRed};
   }
 
-  @media ${(props) => props.theme.breakpoints.xxl} {
+  @media ${(props) => props.theme.breakpoints.xxxl} {
     :root {
-      --fs_xl: 10.8rem;
-      --fs_700: 4.8rem;
-      --fs_600: 3.2rem;
-      --fs_500: 2.4rem;
-      --fs_400: 2rem;
+      --fs_xl: 9rem;
+      --fs_700: 3.2rem;
+      --fs_600: 2.4rem;
+      --fs_500: 2rem;
       --fs_300: 1.6rem;
     }
   }
   @media ${(props) => props.theme.breakpoints.xl} {
     :root {
-      --fs_xl: 10.8rem;
-      --fs_700: 4.8rem;
-      --fs_600: 3.2rem;
-      --fs_500: 2.4rem;
-      --fs_400: 2rem;
+      --fs_xl: 7.2rem;
+      --fs_700: 3.2rem;
+      --fs_600: 2.4rem;
+      --fs_500: 2rem;
       --fs_300: 1.6rem;
     }
   }
   @media ${(props) => props.theme.breakpoints.lg} {
     :root {
-      --fs_xl: 10.8rem;
-      --fs_700: 4.8rem;
-      --fs_600: 3.2rem;
-      --fs_500: 2.4rem;
-      --fs_400: 2rem;
-      --fs_300: 1.6rem;
-    }
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    :root {
-      --fs_xl: 10.8rem;
-      --fs_700: 4.8rem;
-      --fs_600: 3.2rem;
-      --fs_500: 2.4rem;
-      --fs_400: 2rem;
-      --fs_300: 1.6rem;
+      --fs_xl: 6rem;
+      --fs_700: 2.4rem;
+      --fs_600: 2rem;
+      --fs_500: 1.6rem;
+      --fs_300: 1.2rem;
     }
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     :root {
-      --fs_xl: 10.8rem;
-      --fs_700: 4.8rem;
-      --fs_600: 3.2rem;
-      --fs_500: 2.4rem;
-      --fs_400: 2rem;
-      --fs_300: 1.6rem;
+      --fs_xl: 3.2rem;
+      --fs_700: 2.4rem;
+      --fs_600: 1.6rem;
+      --fs_500: 1.6rem;
+      --fs_300: 1.2rem;
     }
 }
-
 `;
 
 export default GlobalStyles;

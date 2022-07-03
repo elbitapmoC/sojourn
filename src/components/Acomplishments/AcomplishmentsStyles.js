@@ -23,7 +23,7 @@ export const AboutTitle = styled.h1`
   font-family: "gallient";
   font-weight: normal;
   font-size: var(--fs_xl);
-  margin-bottom: 6.4rem;
+  margin-bottom: 4.8rem;
   margin-top: 0;
 `;
 
