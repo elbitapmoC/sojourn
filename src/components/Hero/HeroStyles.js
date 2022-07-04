@@ -8,11 +8,14 @@ export const HeroContainer = styled.section`
 export const HeroTextContainer = styled.aside`
   position: absolute;
   bottom: var(--space_800);
+  @media ${(props) => props.theme.breakpoints.sm} {
+    bottom: var(--space_600);
+  }
 `;
 
 export const HeroTitle = styled.h1`
   margin-bottom: 0;
-  margin-top: 3.6rem;
+  margin-top: var(--space_500);
   font-family: "gallient";
   font-size: var(--fs_xl);
   font-weight: normal;

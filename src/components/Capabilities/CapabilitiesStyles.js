@@ -42,7 +42,7 @@ export const FirstHat = styled.aside`
   margin-right: var(--space_700);
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-right: unset;
-    margin-bottom: 3.6rem;
+    margin-bottom: var(--space_500);
   }
 `;
 

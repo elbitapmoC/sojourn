@@ -42,9 +42,9 @@ export const ProjectCardContainer = styled.aside`
     black 100%
   );
   @media ${(props) => props.theme.breakpoints.lg} {
-    padding-top: 3.6rem;
-    padding-right: 3.6rem;
-    padding-left: 3.6rem;
+    padding-top: var(--space_500);
+    padding-right: var(--space_500);
+    padding-left: var(--space_500);
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding-top: var(--space_300);
