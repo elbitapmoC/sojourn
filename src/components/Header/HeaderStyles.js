@@ -10,11 +10,28 @@ export const Logo = styled.div`
   img:hover {
     cursor: pointer;
   }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: none;
+  }
+`;
+
+export const LogoAlt = styled.div`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: block;
+    position: fixed;
+    left: 2.4rem;
+    right: 2.4rem;
+    top: 2.4rem;
+    img {
+      width: 5.6rem;
+    }
+  }
 `;
 
 export const Nav = styled.aside`
   position: absolute;
-  top: 4.8rem;
+  top: var(--space_600);
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -23,6 +40,8 @@ export const Nav = styled.aside`
   z-index: 10;
   @media ${(props) => props.theme.breakpoints.sm} {
     position: fixed;
+    bottom: 0;
+    top: unset;
     z-index: 3;
   }
 `;
@@ -32,7 +51,7 @@ export const Hamburger = styled.div`
   & div {
     width: 30px;
     height: 3px;
-    background: #f2f5f7;
+    background: red;
     margin: 5px;
     transition: all 0.3s ease;
   }
@@ -40,9 +59,10 @@ export const Hamburger = styled.div`
     display: block;
     position: absolute;
     cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 1.2rem;
     z-index: 2;
     transition: all 0.7s ease;
   }
@@ -66,7 +86,7 @@ export const NavLinks = styled.ul`
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #61dafb;
+    background-color: red;
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;

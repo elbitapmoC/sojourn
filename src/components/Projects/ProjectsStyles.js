@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.section`
-  margin-top: 48rem;
+  margin-top: var(--space_xxl);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -12,14 +12,14 @@ export const ProjectTitle = styled.section`
   font-family: "gallient";
   font-weight: normal;
   font-size: var(--fs_xl);
-  margin-bottom: 4.8rem;
+  margin-bottom: var(--space_600);
   margin-top: 0;
 `;
 
 export const Img = styled.img`
-  margin-top: 4.8rem;
+  margin-top: var(--space_600);
   &:not(:last-child) {
-    margin-right: 4.8rem;
+    margin-right: var(--space_600);
   }
 `;
 
@@ -31,10 +31,10 @@ export const Heading = styled.p`
 
 export const ProjectCardContainer = styled.aside`
   position: relative;
-  padding-top: 4.8rem;
-  padding-left: 9.6rem;
-  padding-right: 9.6rem;
-  margin-bottom: 2.4rem;
+  padding-top: var(--space_600);
+  padding-left: var(--space_800);
+  padding-right: var(--space_800);
+  margin-bottom: var(--space_400);
   border: 5px solid rgba(255, 255, 255, 0.25);
   background: linear-gradient(
     180deg,
@@ -46,12 +46,17 @@ export const ProjectCardContainer = styled.aside`
     padding-right: 3.6rem;
     padding-left: 3.6rem;
   }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding-top: var(--space_300);
+    padding-right: var(--space_300);
+    padding-left: var(--space_300);
+  }
 `;
 
 export const TagList = styled.ul`
   color: rgba(255, 255, 255, 0.6);
   font-size: var(--fs_500);
-  margin-top: 2.4rem;
+  margin-top: var(--space_400);
   @media ${(props) => props.theme.breakpoints.lg} {
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +70,7 @@ export const ImageList = styled.aside`
 
 export const Tag = styled.li`
   display: inline;
-  margin-right: 4.8rem;
+  margin-right: var(--space_600);
   opacity: 60%;
   &:hover {
     color: ${(props) => props.theme.colors.brightRed};
@@ -75,8 +80,8 @@ export const Tag = styled.li`
 
 export const ProjectsButton = styled.a`
   border: 3px solid rgba(52, 52, 52, 0.1);
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  padding-top: var(--space_300);
+  padding-bottom: var(--space_300);
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: var(--fs_300);

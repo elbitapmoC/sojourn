@@ -37,6 +37,8 @@ export const Container = styled.div`
     max-width: 640px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    max-width: 500px;
+    max-width: unset;
+    margin-left: var(--space_500);
+    margin-right: var(--space_500);
   }
 `;

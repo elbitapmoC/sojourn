@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const CapabilitiesContainer = styled.section`
-  margin-top: 48rem;
+  margin-top: var(--space_xxl);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -27,7 +27,7 @@ export const CapabilitiesTitle = styled.section`
   font-family: "gallient";
   font-weight: normal;
   font-size: var(--fs_xl);
-  margin-bottom: 6.4rem;
+  margin-bottom: var(--space_700);
 `;
 
 const baseHatStyles = css`
@@ -39,15 +39,16 @@ const baseHatStyles = css`
 
 export const FirstHat = styled.aside`
   ${baseHatStyles}
-  margin-right: 6.4rem;
+  margin-right: var(--space_700);
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-right: unset;
+    margin-bottom: 3.6rem;
   }
 `;
 
 export const SecondHat = styled.aside`
   ${baseHatStyles}
-  margin-left: 6.4rem;
+  margin-left: var(--space_700);
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-left: unset;
   }

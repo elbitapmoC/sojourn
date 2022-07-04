@@ -7,7 +7,7 @@ export const HeroContainer = styled.section`
 
 export const HeroTextContainer = styled.aside`
   position: absolute;
-  bottom: 9.6rem;
+  bottom: var(--space_800);
 `;
 
 export const HeroTitle = styled.h1`

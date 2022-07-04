@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.section`
-  margin-top: 48rem;
-  margin-bottom: 24rem;
+  margin-top: var(--space_xxl);
+  margin-bottom: var(--space_xl);
 
   display: flex;
   justify-content: center;
@@ -24,15 +24,15 @@ export const AboutTitle = styled.h1`
   font-family: "gallient";
   font-weight: normal;
   font-size: var(--fs_xl);
-  margin-bottom: 2.4rem;
+  margin-bottom: var(--space_400);
   margin-top: 0;
 `;
 
 export const AboutButton = styled.a`
-  margin-top: 3.2rem;
+  margin-top: var(--space_500);
   border: 3px solid black;
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  padding-top: var(--space_300);
+  padding-bottom: var(--space_300);
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: var(--fs_300);
