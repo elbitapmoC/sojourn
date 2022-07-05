@@ -10,7 +10,7 @@ export const ProjectsContainer = styled.section`
 export const ProjectTitle = styled.section`
   text-align: center;
   font-family: "gallient";
-  font-weight: normal;
+  font-weight: bold;
   font-size: var(--fs_xl);
   margin-bottom: var(--space_600);
   margin-top: 0;

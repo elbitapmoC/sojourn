@@ -21,7 +21,7 @@ export const AboutDescription = styled.p`
 export const AboutTitle = styled.h1`
   text-align: center;
   font-family: "gallient";
-  font-weight: normal;
+  font-weight: bold;
   font-size: var(--fs_xl);
   margin-bottom: var(--space_600);
   margin-top: 0;

@@ -102,10 +102,13 @@ export const NavLinks = styled.ul`
 
     & li {
       width: 100%;
-      padding: 2.4rem;
       text-align: center;
       background-color: ${(props) => props.theme.colors.background1};
       border-top: 1.25px solid rgba(52, 52, 52, 0.125);
+      & a {
+        display: block;
+        padding: 2.4rem;
+      }
     }
     &.open {
       bottom: 0;
