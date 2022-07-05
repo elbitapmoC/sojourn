@@ -80,8 +80,9 @@ const GlobalStyles = createGlobalStyle`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     :root {
-      --fs_xl: 4.7rem;
-      --space_xxl: 36rem;
+      --fs_xl: 4.5rem;
+      --fs_600: 1.8rem;
+      --space_xxl: 32rem;
     }
 }
 `;

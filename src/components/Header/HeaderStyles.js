@@ -18,11 +18,12 @@ export const Logo = styled.div`
 export const LogoAlt = styled.div`
   display: none;
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: block;
+    display: inline-table;
     position: fixed;
     left: 2.4rem;
     right: 2.4rem;
     top: 2.4rem;
+    z-index: 1;
     img {
       width: 5.6rem;
     }
@@ -71,8 +72,7 @@ export const Hamburger = styled.div`
 export const NavLinks = styled.ul`
   display: flex;
   list-style: none;
-  // padding: 0 0.7vw;
-  // justify-content: space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   & li a {
     text-decoration: none;
@@ -93,43 +93,22 @@ export const NavLinks = styled.ul`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     position: fixed;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(50px at 90% -20%);
-    -webkit-clip-path: circle(50px at 90% -10%);
     transition: all 0.3s ease-out;
-    pointer-events: none;
-    &.open {
-      clip-path: circle(150% at 90% -10%);
-      -webkit-clip-path: circle(150% at 90% -10%);
-      pointer-events: all;
-    }
+    justify-content: flex-end;
+    bottom: -50vh;
+
     & li {
-      opacity: 0;
+      width: 100%;
+      padding: 2.4rem;
+      text-align: center;
+      background-color: ${(props) => props.theme.colors.background1};
+      border-top: 1.25px solid rgba(52, 52, 52, 0.125);
     }
-    & li:nth-child(1) {
-      transition: all 0.2s ease 0.2s;
-    }
-    & li:nth-child(2) {
-      transition: all 0.2s ease 0.23s;
-    }
-    & li:nth-child(3) {
-      transition: all 0.2s ease 0.26s;
-    }
-    & li:nth-child(4) {
-      transition: all 0.2s ease 0.27s;
-    }
-    & li:nth-child(5) {
-      transition: all 0.2s ease 0.28s;
-    }
-    & li:nth-child(6) {
-      transition: all 0.2s ease 0.29s;
-      margin: 0;
-    }
-    & li:nth-child(7) {
-      transition: all 0.2s ease 0.3s;
-      margin: 0;
+    &.open {
+      bottom: 0;
     }
   }
 `;
