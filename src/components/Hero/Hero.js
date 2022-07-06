@@ -14,7 +14,7 @@ const Hero = (props) => (
         <em>Web3</em> &amp; Brand Development
       </HeroTitle>
       <HeroSubtextContainer>
-        <HeroSubtitle>We believe in thinking differently.</HeroSubtitle>
+        <HeroSubtitle>I believe in thinking differently.</HeroSubtitle>
         <HeroSubtitle>
           By putting <span className="emphText">power</span>,{" "}
           <span className="emphText">control</span> &amp;{" "}
