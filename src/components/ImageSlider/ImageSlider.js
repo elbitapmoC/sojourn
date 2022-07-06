@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const ImageSlider = ({ slides }) => {
-  const [currentIndex, setCurrent] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const sliderStyles = {
     position: "relative",
@@ -23,6 +23,7 @@ const ImageSlider = ({ slides }) => {
     paddingLeft: "12px",
     paddingRight: "13px",
     backgroundColor: "#343434",
+    cursor: "pointer",
   };
 
   const rightArrow = {
@@ -32,6 +33,7 @@ const ImageSlider = ({ slides }) => {
     paddingLeft: "13px",
     paddingRight: "12px",
     backgroundColor: "#343434",
+    cursor: "pointer",
   };
 
   const arrowsContainer = {
@@ -42,17 +44,34 @@ const ImageSlider = ({ slides }) => {
 
   const slideTitle = {
     textAlign: "center",
-    marginTop: 10,
+    marginTop: "2.4rem",
+    fontSize: "4.8rem",
   };
 
-  console.log(slides);
+  const sliderNumbers = {
+    fontSize: "2.4rem",
+    fontWeight: "bold",
+  };
+
+  const goForward = () => {
+    const isLast = currentIndex === slides.length - 1;
+    const newIndex = isLast ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goBack = () => {
+    const isFirst = currentIndex === 0;
+    const newIndex = isFirst ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
   return (
     <aside style={sliderStyles}>
-      <p>
+      <p style={sliderNumbers}>
         {currentIndex + 1} / {slides.length}
       </p>
       <span style={arrowsContainer}>
-        <button style={leftArrow}>
+        <button style={leftArrow} onClick={goBack}>
           <svg
             width="26"
             height="12"
@@ -65,7 +84,7 @@ const ImageSlider = ({ slides }) => {
             />
           </svg>
         </button>
-        <button style={rightArrow}>
+        <button style={rightArrow} onClick={goForward}>
           <svg
             width="26"
             height="12"

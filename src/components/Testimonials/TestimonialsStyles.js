@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.section`
-  margin-top: var(--space_600);
+  margin-top: var(--space_800);
 `;
 
 export const Img = styled.img`

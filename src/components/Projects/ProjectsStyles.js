@@ -13,6 +13,9 @@ export const ProjectHeading = styled.aside`
   justify-content: space-between;
   align-items: center;
   padding-bottom: var(--space_800);
+  @media ${(props) => props.theme.breakpoints.lg} {
+    flex-direction: column;
+  }
 `;
 
 export const ProjectsSub = styled.p`
@@ -48,6 +51,9 @@ export const ImageSliderContainer = styled.aside`
   width: 960px;
   height: 420px;
   margin: 0 auto;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    width: 100%;
+  }
 `;
 
 export const Heading = styled.p`

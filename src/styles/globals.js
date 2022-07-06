@@ -79,6 +79,7 @@ const GlobalStyles = createGlobalStyle`
       --fs_600: 2rem;
       --fs_500: 1.6rem;
       --fs_300: 1.2rem;
+      --fs_xxl: 10.8rem;
 
       --space_600: 3.2rem;
     }
@@ -88,6 +89,7 @@ const GlobalStyles = createGlobalStyle`
       --fs_xl: 4.2rem;
       --fs_600: 1.8rem;
       --space_xxl: 32rem;
+      --fs_xxl: 7.2rem;
     }
 }
 `;

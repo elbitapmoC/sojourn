@@ -17,8 +17,7 @@ export const HeroTextContainer = styled.aside`
 export const HeroSubtextContainer = styled.aside`
   display: flex;
   justify-content: space-between;
-  max-width: 960px
-  background-color: pink;
+  max-width: 960px;
 `;
 
 export const HeroTitle = styled.h1`
