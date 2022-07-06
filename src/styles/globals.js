@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
     --fs_500: 2.4rem;
     --fs_300: 1.6rem;
     
-    --space_xxl: 48rem;
+    --space_xxl: 36rem;
     --space_xl: 24rem;
     --space_800: 9.6rem;
     --space_700: 6.4rem;
@@ -35,7 +35,7 @@ const GlobalStyles = createGlobalStyle`
     background: ${(props) => props.theme.colors.background1};
     color: ${(props) => props.theme.colors.primary1};
     font-family: 'Helvetica', sans-serif;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.04em;
     font-weight: 400;
     cursor: default;
     overflow-x: hidden;

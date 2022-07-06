@@ -23,7 +23,7 @@ export const AboutTitle = styled.h1`
   text-align: center;
   font-family: "Helvetica", sans-serif;
   font-size: var(--fs_xl);
-  margin-bottom: var(--space_400);
+  margin-bottom: 0;
   margin-top: 0;
 `;
 

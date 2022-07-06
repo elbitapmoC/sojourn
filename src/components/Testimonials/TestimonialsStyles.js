@@ -12,7 +12,7 @@ export const Img = styled.img`
 `;
 
 export const ImageList = styled.aside`
-  margin-top: var(--space_400);
+  margin-top: var(--space_800);
   display: flex;
   justify-content: center;
 `;

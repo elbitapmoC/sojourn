@@ -1,0 +1,88 @@
+import React, { useState } from "react";
+
+const ImageSlider = ({ slides }) => {
+  const [currentIndex, setCurrent] = useState(0);
+
+  const sliderStyles = {
+    position: "relative",
+    height: "100%",
+  };
+
+  const slideStyles = {
+    width: "100%",
+    height: "100%",
+    backgroundImage: `url(${slides[currentIndex].thumbnail})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+
+  const leftArrow = {
+    border: 0,
+    paddingTop: "20px",
+    paddingBottom: "20px",
+    paddingLeft: "12px",
+    paddingRight: "13px",
+    backgroundColor: "#343434",
+  };
+
+  const rightArrow = {
+    border: 0,
+    paddingTop: "20px",
+    paddingBottom: "20px",
+    paddingLeft: "13px",
+    paddingRight: "12px",
+    backgroundColor: "#343434",
+  };
+
+  const arrowsContainer = {
+    position: "absolute",
+    bottom: -40,
+    right: 0,
+  };
+
+  const slideTitle = {
+    textAlign: "center",
+    marginTop: 10,
+  };
+
+  console.log(slides);
+  return (
+    <aside style={sliderStyles}>
+      <p>
+        {currentIndex + 1} / {slides.length}
+      </p>
+      <span style={arrowsContainer}>
+        <button style={leftArrow}>
+          <svg
+            width="26"
+            height="12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M.47 5.47a.75.75 0 0 0 0 1.06l4.773 4.773a.75.75 0 1 0 1.06-1.06L2.061 6l4.242-4.243a.75.75 0 0 0-1.06-1.06L.47 5.47ZM26 5.25H1v1.5h25v-1.5Z"
+              fill="#fff"
+            />
+          </svg>
+        </button>
+        <button style={rightArrow}>
+          <svg
+            width="26"
+            height="12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.53 6.53a.75.75 0 0 0 0-1.06L20.757.697a.75.75 0 0 0-1.06 1.06L23.939 6l-4.242 4.243a.75.75 0 0 0 1.06 1.06L25.53 6.53ZM0 6.75h25v-1.5H0v1.5Z"
+              fill="#fff"
+            />
+          </svg>
+        </button>
+      </span>
+      <aside style={slideStyles}></aside>
+      <p style={slideTitle}>{slides[currentIndex].title}</p>
+    </aside>
+  );
+};
+
+export default ImageSlider;

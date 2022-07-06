@@ -9,100 +9,88 @@ export const projects = [
         alt: "Stay relevant and connected in these uncertain times",
       },
     ],
+    thumbnail: "./images/fitness.jpg",
     tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 0,
-  },
-  {
-    title: "Pfizer",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    images: [
-      {
-        src: "/images/dfa-1.png",
-        alt: "Stay relevant and connected in these uncertain times",
-      },
-    ],
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    href: "./dfa",
     id: 1,
   },
   {
-    title: "Amazon Tax Day",
-    description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: "Pfizer",
     images: [
       {
         src: "/images/dfa-1.png",
         alt: "Stay relevant and connected in these uncertain times",
       },
     ],
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    thumbnail: "./images/fitness.jpg",
+    tags: ["React", "ChatEngine", "Firebase"],
+    href: "./dfa",
     id: 2,
   },
   {
-    title: "Pro Edge",
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: "Amazon Tax Day",
     images: [
       {
         src: "/images/dfa-1.png",
         alt: "Stay relevant and connected in these uncertain times",
       },
     ],
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    thumbnail: "./images/fitness.jpg",
+    tags: ["Mongo", "Express", "React", "Node"],
+    href: "./dfa",
     id: 3,
   },
   {
-    title: "BXT",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: "Pro Edge",
     images: [
       {
         src: "/images/dfa-1.png",
         alt: "Stay relevant and connected in these uncertain times",
       },
     ],
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    thumbnail: "./images/fitness.jpg",
+    tags: ["React", "JavaScript"],
+    href: "./dfa",
     id: 4,
   },
   {
-    title: "Living Royalty Clothing",
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    title: "BXT",
     images: [
       {
         src: "/images/dfa-1.png",
         alt: "Stay relevant and connected in these uncertain times",
       },
     ],
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    thumbnail: "./images/fitness.jpg",
+    tags: ["React", "ChatEngine", "Firebase"],
+    href: "./dfa",
     id: 5,
   },
   {
-    title: "3D Playground",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: "Living Royalty Clothing",
     images: [
       {
         src: "/images/dfa-1.png",
         alt: "Stay relevant and connected in these uncertain times",
       },
     ],
-    tags: ["Spline"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    thumbnail: "./images/fitness.jpg",
+    tags: ["React", "WebRTC"],
+    href: "./dfa",
     id: 6,
+  },
+  {
+    title: "3D Playground",
+    images: [
+      {
+        src: "/images/dfa-1.png",
+        alt: "Stay relevant and connected in these uncertain times",
+      },
+    ],
+    thumbnail: "./images/fitness.jpg",
+    tags: ["Spline"],
+    href: "./dfa",
+    id: 7,
   },
 ];
 
@@ -153,6 +141,11 @@ export const logo = {
 export const flower = {
   src: "/images/flowers.svg",
   alt: "Illustrations of flowers, olives branches, and bushes together",
+};
+
+export const ft = {
+  src: "/images/ft.svg",
+  alt: "featured works",
 };
 
 export const socialIcons = [
