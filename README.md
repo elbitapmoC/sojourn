@@ -1,4 +1,1 @@
-## Personal Portfolio
-
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
-# sojo
+# Sojourner - Inhabitants of the land. Scripture &amp; integrity oriented company. We aim to be as Jacob was to Laban.
