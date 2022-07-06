@@ -12,12 +12,24 @@ import {
   ProjectTitle,
   ProjectCardContainer,
   ProjectsButton,
+  ProjectsSub,
+  ProjectHeading,
   Img,
 } from "./ProjectsStyles";
 
 const Projects = () => (
   <ProjectsContainer id="work">
-    <ProjectTitle>Featured Works</ProjectTitle>
+    <ProjectHeading>
+      <ProjectTitle>
+        Featured Works
+        {/* img */}
+      </ProjectTitle>
+      <ProjectsSub>
+        A picture's worth a thousand words. Here's a few thousand words to show
+        what we're about. Passions &amp; ideas that move us, that pushes us to
+        go beyond. Enjoy your time spent within our mind.
+      </ProjectsSub>
+    </ProjectHeading>
     <ProjectCardContainer>
       {projects.map((p, i) => {
         return (

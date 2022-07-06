@@ -7,7 +7,8 @@ export const HeroContainer = styled.section`
 
 export const HeroTextContainer = styled.aside`
   position: absolute;
-  bottom: 15%;
+  bottom: 30%;
+  transform: translateY(30%);
   @media ${(props) => props.theme.breakpoints.sm} {
     bottom: var(--space_700);
   }

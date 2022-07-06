@@ -7,6 +7,9 @@ export const ProjectsContainer = styled.section`
   flex-direction: column;
 `;
 
+export const ProjectsSub = styled.section``;
+export const ProjectHeading = styled.section``;
+
 export const ProjectTitle = styled.section`
   text-align: center;
   font-family: "Helvetica", sans-serif;
