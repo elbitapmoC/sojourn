@@ -37,6 +37,10 @@ export const ProjectTitle = styled.p`
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    @media ${(props) => props.theme.breakpoints.lg} {
+      width: auto;
+      height: 85%;
+    }
   }
 `;
 

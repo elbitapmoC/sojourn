@@ -68,9 +68,7 @@ const GlobalStyles = createGlobalStyle`
   @media ${(props) => props.theme.breakpoints.xl} {
     :root {
       --fs_xl: 7.2rem;
-
-      --space_xxl: 42rem;
-    }
+  }
   }
   @media ${(props) => props.theme.breakpoints.lg} {
     :root {
@@ -88,7 +86,7 @@ const GlobalStyles = createGlobalStyle`
     :root {
       --fs_xl: 4.2rem;
       --fs_600: 1.8rem;
-      --space_xxl: 32rem;
+      --space_xxl: 24rem;
       --fs_xxl: 7.2rem;
     }
 }

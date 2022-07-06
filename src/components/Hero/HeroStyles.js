@@ -9,15 +9,15 @@ export const HeroTextContainer = styled.aside`
   position: absolute;
   bottom: 30%;
   transform: translateY(30%);
-  @media ${(props) => props.theme.breakpoints.sm} {
-    bottom: var(--space_700);
-  }
 `;
 
 export const HeroSubtextContainer = styled.aside`
   display: flex;
   justify-content: space-between;
   max-width: 960px;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    flex-direction: column;
+  }
 `;
 
 export const HeroTitle = styled.h1`
@@ -29,6 +29,11 @@ export const HeroTitle = styled.h1`
   font-size: var(--fs_xxl);
   max-width: 960px;
   width: 100%;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 4.4rem;
+    margin-bottom: var(--space_500);
+  }
 `;
 
 export const HeroSubtitle = styled.aside`
@@ -37,6 +42,9 @@ export const HeroSubtitle = styled.aside`
   max-width: 500px;
   width: 100%;
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-weight: normal;
+    max-width: unset;
+    &:not(:last-child) {
+      margin-bottom: 3.2rem;
+    }
   }
 `;

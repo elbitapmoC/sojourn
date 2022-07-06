@@ -71,7 +71,11 @@ const ImageSlider = ({ slides }) => {
         {currentIndex + 1} / {slides.length}
       </p>
       <span style={arrowsContainer}>
-        <button style={leftArrow} onClick={goBack}>
+        <button
+          aria-label="Button to move slide forward to next image"
+          style={leftArrow}
+          onClick={goBack}
+        >
           <svg
             width="26"
             height="12"
@@ -84,7 +88,11 @@ const ImageSlider = ({ slides }) => {
             />
           </svg>
         </button>
-        <button style={rightArrow} onClick={goForward}>
+        <button
+          aria-label="Button to move slide back to previous image"
+          style={rightArrow}
+          onClick={goForward}
+        >
           <svg
             width="26"
             height="12"
