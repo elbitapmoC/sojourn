@@ -21,8 +21,7 @@ export const AboutDescription = styled.p`
 
 export const AboutTitle = styled.h1`
   text-align: center;
-  font-family: "gallient";
-  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
   font-size: var(--fs_xl);
   margin-bottom: var(--space_400);
   margin-top: 0;
@@ -37,7 +36,6 @@ export const AboutButton = styled.a`
   padding-right: 2rem;
   font-size: var(--fs_300);
   text-transform: uppercase;
-  font-weight: bold;
   color: ${(props) => props.theme.colors.background1};
   background-color: ${(props) => props.theme.colors.brightRed};
   &:hover {

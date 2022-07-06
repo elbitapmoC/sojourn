@@ -15,7 +15,6 @@ export const FooterWrapper = styled.footer`
 
 export const FooterParagraph = styled.p`
   font-size: var(--fs_500);
-  font-weight: bold;
   margin-top: var(--space_400);
 `;
 

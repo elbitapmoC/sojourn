@@ -9,15 +9,14 @@ import {
 const Hero = (props) => (
   <HeroContainer>
     <HeroTextContainer>
-      <HeroSubtitle>
-        Hello, I'm Bazell&mdash; I do web3 development
-      </HeroSubtitle>
       <HeroTitle>
-        I strive to put <span className="emphText">power</span>,{" "}
-        <span className="emphText">control</span> &amp;{" "}
-        <span className="emphText">confidentiality</span> back into the hands of
-        users.
+        <i>Web3</i> &amp; Brand Development
       </HeroTitle>
+      <HeroSubtitle>We believe in thinking differently.</HeroSubtitle>
+      <HeroSubtitle>
+        By putting power, control &amp; confidentiality back into the hands of
+        users.
+      </HeroSubtitle>
     </HeroTextContainer>
   </HeroContainer>
 );

@@ -33,7 +33,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: var(--fs_300);
     background: ${(props) => props.theme.colors.background1};
     color: ${(props) => props.theme.colors.primary1};
-    font-family: 'Lato';
+    font-family: 'Helvetica', sans-serif;
     font-weight: normal;
     cursor: default;
     overflow-x: hidden;

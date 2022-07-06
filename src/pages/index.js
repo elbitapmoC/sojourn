@@ -12,12 +12,6 @@ const Home = () => {
     <Layout>
       <Hero />
       <Fade bottom>
-        <Capabilities />
-      </Fade>
-      <Fade bottom>
-        <Acomplishments />
-      </Fade>
-      <Fade bottom>
         <Projects />
       </Fade>
       <Fade bottom>

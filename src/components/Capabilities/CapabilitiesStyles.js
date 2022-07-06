@@ -24,8 +24,7 @@ export const HatDescription = styled.p`
 
 export const CapabilitiesTitle = styled.section`
   text-align: center;
-  font-family: "gallient";
-  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
   font-size: var(--fs_xl);
   margin-bottom: var(--space_700);
 `;

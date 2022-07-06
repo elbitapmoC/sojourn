@@ -31,9 +31,9 @@ export const LogoAlt = styled.div`
 `;
 
 export const Nav = styled.aside`
-  position: absolute;
-  top: var(--space_600);
-  background-color: white;
+  position: fixed;
+  border-bottom: 1px solid ${(props) => props.theme.colors.primary1};
+  background-color: ${(props) => props.theme.colors.background1};
   display: flex;
   justify-content: space-between;
   left: 0;
