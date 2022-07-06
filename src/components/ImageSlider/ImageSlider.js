@@ -8,6 +8,12 @@ const ImageSlider = ({ slides }) => {
     height: "100%",
   };
 
+  const floatingStyles = {
+    position: "absolute",
+    left: "-2.4rem",
+    bottom: "-6rem",
+  };
+
   const slideStyles = {
     width: "100%",
     height: "100%",
@@ -107,9 +113,11 @@ const ImageSlider = ({ slides }) => {
           </svg>
         </button>
       </span>
-      <aside style={slideStyles}>
-        <img src={slides.outterThumb}></img>
-      </aside>
+      <aside style={slideStyles}></aside>
+      <img
+        style={floatingStyles}
+        src={slides[currentIndex].floatingImage}
+      ></img>
       <p style={slideTitle}>{slides[currentIndex].title}</p>
     </aside>
   );
