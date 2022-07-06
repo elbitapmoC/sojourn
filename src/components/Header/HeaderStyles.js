@@ -3,10 +3,6 @@ import styled from "styled-components";
 export const Logo = styled.div`
   padding: 1vh 1vw;
   text-align: center;
-  & img {
-    height: 5rem;
-    width: 5rem;
-  }
   img:hover {
     cursor: pointer;
   }

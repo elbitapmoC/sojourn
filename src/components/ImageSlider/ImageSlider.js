@@ -45,7 +45,7 @@ const ImageSlider = ({ slides }) => {
   const slideTitle = {
     textAlign: "center",
     marginTop: "2.4rem",
-    fontSize: "4.8rem",
+    fontSize: "3.2rem",
   };
 
   const sliderNumbers = {

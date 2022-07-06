@@ -21,6 +21,9 @@ export const ProjectHeading = styled.aside`
 export const ProjectsSub = styled.p`
   max-width: 500px;
   font-size: 2rem;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    margin-top: var(--fs_600);
+  }
 `;
 
 export const ProjectTitle = styled.p`
@@ -66,7 +69,7 @@ export const Heading = styled.p`
   position: absolute;
   left: 50%;
   transform: translate(-50%, 2.4rem);
-  bottom: -2.4rem;
+  bottom: var(--fs_500);
 `;
 export const numOutOfTotal = styled.p``;
 

@@ -21,7 +21,7 @@ export const HeroSubtextContainer = styled.aside`
 `;
 
 export const HeroTitle = styled.h1`
-  margin-bottom: 0;
+  margin-top: 0;
   font-family: "Helvetica", sans-serif;
   line-height: 85%;
 
@@ -41,10 +41,13 @@ export const HeroSubtitle = styled.aside`
   font-size: var(--fs_600);
   max-width: 500px;
   width: 100%;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    max-width: unset;
+  @media ${(props) => props.theme.breakpoints.lg} {
     &:not(:last-child) {
-      margin-bottom: 3.2rem;
+      margin-right: unset;
+      margin-bottom: var(--fs_600);
     }
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: unset;
   }
 `;
