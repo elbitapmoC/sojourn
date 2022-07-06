@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
     --fs_500: 2.4rem;
     --fs_300: 1.6rem;
     
-    --space_xxl: 48rem;
+    --space_xxl: 36rem;
     --space_xl: 24rem;
     --space_800: 9.6rem;
     --space_700: 6.4rem;
@@ -35,7 +35,7 @@ const GlobalStyles = createGlobalStyle`
     background: ${(props) => props.theme.colors.background1};
     color: ${(props) => props.theme.colors.primary1};
     font-family: 'Helvetica', sans-serif;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.04em;
     font-weight: 400;
     cursor: default;
     overflow-x: hidden;
@@ -68,9 +68,7 @@ const GlobalStyles = createGlobalStyle`
   @media ${(props) => props.theme.breakpoints.xl} {
     :root {
       --fs_xl: 7.2rem;
-
-      --space_xxl: 42rem;
-    }
+  }
   }
   @media ${(props) => props.theme.breakpoints.lg} {
     :root {
@@ -79,6 +77,7 @@ const GlobalStyles = createGlobalStyle`
       --fs_600: 2rem;
       --fs_500: 1.6rem;
       --fs_300: 1.2rem;
+      --fs_xxl: 10.8rem;
 
       --space_600: 3.2rem;
     }
@@ -86,8 +85,9 @@ const GlobalStyles = createGlobalStyle`
   @media ${(props) => props.theme.breakpoints.sm} {
     :root {
       --fs_xl: 4.2rem;
-      --fs_600: 1.8rem;
-      --space_xxl: 32rem;
+      --fs_600: 2rem;
+      --space_xxl: 24rem;
+      --fs_xxl: 7.2rem;
     }
 }
 `;

@@ -7,15 +7,44 @@ export const ProjectsContainer = styled.section`
   flex-direction: column;
 `;
 
-export const ProjectsSub = styled.section``;
-export const ProjectHeading = styled.section``;
+export const ProjectHeading = styled.aside`
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: var(--space_800);
+  @media ${(props) => props.theme.breakpoints.lg} {
+    flex-direction: column;
+  }
+`;
 
-export const ProjectTitle = styled.section`
+export const ProjectsSub = styled.p`
+  max-width: 500px;
+  font-size: 2rem;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    margin-top: var(--fs_600);
+  }
+`;
+
+export const ProjectTitle = styled.p`
   text-align: center;
   font-family: "Helvetica", sans-serif;
-  font-size: var(--fs_xl);
-  margin-bottom: var(--space_600);
+  font-size: var(--fs_xxl);
+  letter-spacing: -0.04em;
   margin-top: 0;
+  max-width: 500px;
+  line-height: 75%;
+  position: relative;
+  & img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    @media ${(props) => props.theme.breakpoints.lg} {
+      width: auto;
+      height: 85%;
+    }
+  }
 `;
 
 export const Img = styled.img`
@@ -25,18 +54,37 @@ export const Img = styled.img`
   }
 `;
 
-export const Heading = styled.p`
-  font-size: var(--fs_700);
-  color: white;
+export const ImageSliderContainer = styled.aside`
+  width: 960px;
+  height: 420px;
+  margin: 0 auto;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    width: 100%;
+  }
 `;
 
+export const Heading = styled.p`
+  font-size: var(--fs_700);
+  color: ${(props) => props.theme.colors.primary1};
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 2.4rem);
+  bottom: var(--fs_500);
+`;
+export const numOutOfTotal = styled.p``;
+
 export const ProjectCardContainer = styled.aside`
+  max-width: 960px;
+  width: 100%;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   padding-top: var(--space_600);
-  padding-left: var(--space_800);
-  padding-right: var(--space_800);
-  margin-bottom: var(--space_400);
-  border: 5px solid rgba(255, 255, 255, 0.25);
+  padding-left: var(--space_600);
+  padding-right: var(--space_600);
+  margin-bottom: var(--space_600);
+  border: 5px solid ${(props) => props.theme.colors.brightRed};
   background: linear-gradient(
     180deg,
     ${(props) => props.theme.colors.primary1} 0%,

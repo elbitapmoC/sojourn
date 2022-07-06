@@ -37,11 +37,6 @@ const Header = () => {
         </Hamburger>
         <NavLinks className={`${navToggled ? "open" : ""}`}>
           <li>
-            <Link href="./#hats">
-              <NavLink>Capabilities.</NavLink>
-            </Link>
-          </li>
-          <li>
             <Link href="./#about">
               <NavLink>About.</NavLink>
             </Link>

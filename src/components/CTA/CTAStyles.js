@@ -23,8 +23,9 @@ export const AboutTitle = styled.h1`
   text-align: center;
   font-family: "Helvetica", sans-serif;
   font-size: var(--fs_xl);
-  margin-bottom: var(--space_400);
+  margin-bottom: var(--space_500);
   margin-top: 0;
+  line-height: 75%;
 `;
 
 export const AboutButton = styled.a`

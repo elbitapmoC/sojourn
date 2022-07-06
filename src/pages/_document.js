@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
       <Html lang="en-GB">
         <Head>
           <link
-            href="http://fonts.cdnfonts.com/css/helvetica-2?styles=65655,65653,65657"
+            href="https://fonts.cdnfonts.com/css/helvetica-2?styles=65655,65653,65657"
             rel="stylesheet"
           />
 

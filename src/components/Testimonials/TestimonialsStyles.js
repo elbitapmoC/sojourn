@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.section`
-  margin-top: var(--space_600);
+  margin-top: var(--space_800);
 `;
 
 export const Img = styled.img`
@@ -12,7 +12,7 @@ export const Img = styled.img`
 `;
 
 export const ImageList = styled.aside`
-  margin-top: var(--space_400);
+  margin-top: var(--space_800);
   display: flex;
   justify-content: center;
 `;
