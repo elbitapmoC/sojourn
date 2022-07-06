@@ -107,7 +107,9 @@ const ImageSlider = ({ slides }) => {
           </svg>
         </button>
       </span>
-      <aside style={slideStyles}></aside>
+      <aside style={slideStyles}>
+        <img src={slides.outterThumb}></img>
+      </aside>
       <p style={slideTitle}>{slides[currentIndex].title}</p>
     </aside>
   );
