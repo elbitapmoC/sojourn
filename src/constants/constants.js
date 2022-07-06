@@ -10,7 +10,6 @@ export const projects = [
       },
     ],
     thumbnail: "./images/fitness.jpg",
-    floatingImage: "./images/weights.png",
     tags: ["Mongo", "Express", "React", "Node"],
     href: "./dfa",
     id: 1,

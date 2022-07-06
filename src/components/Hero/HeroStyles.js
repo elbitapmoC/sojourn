@@ -29,9 +29,13 @@ export const HeroTitle = styled.h1`
   font-size: var(--fs_xxl);
   max-width: 960px;
   width: 100%;
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 8.4rem;
+    margin-bottom: var(--space_500);
+  }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 4.4rem;
+    font-size: 5.115rem;
     margin-bottom: var(--space_500);
   }
 `;
