@@ -4,20 +4,24 @@ import {
   HeroTitle,
   HeroSubtitle,
   HeroTextContainer,
+  HeroSubtextContainer,
 } from "./HeroStyles";
 
 const Hero = (props) => (
   <HeroContainer>
     <HeroTextContainer>
-      <HeroSubtitle>
-        Hello, I'm Bazell&mdash; I do web3 development
-      </HeroSubtitle>
       <HeroTitle>
-        I strive to put <span className="emphText">power</span>,{" "}
-        <span className="emphText">control</span> &amp;{" "}
-        <span className="emphText">confidentiality</span> back into the hands of
-        users.
+        <em>Web3</em> &amp; Brand Development
       </HeroTitle>
+      <HeroSubtextContainer>
+        <HeroSubtitle>We believe in thinking differently.</HeroSubtitle>
+        <HeroSubtitle>
+          By putting <span className="emphText">power</span>,{" "}
+          <span className="emphText">control</span> &amp;{" "}
+          <span className="emphText">confidentiality</span> back into the hands
+          of users.
+        </HeroSubtitle>
+      </HeroSubtextContainer>
     </HeroTextContainer>
   </HeroContainer>
 );

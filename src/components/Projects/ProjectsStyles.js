@@ -9,8 +9,7 @@ export const ProjectsContainer = styled.section`
 
 export const ProjectTitle = styled.section`
   text-align: center;
-  font-family: "gallient";
-  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
   font-size: var(--fs_xl);
   margin-bottom: var(--space_600);
   margin-top: 0;
@@ -25,7 +24,6 @@ export const Img = styled.img`
 
 export const Heading = styled.p`
   font-size: var(--fs_700);
-  font-weight: bold;
   color: white;
 `;
 
@@ -86,7 +84,6 @@ export const ProjectsButton = styled.a`
   padding-right: 2rem;
   font-size: var(--fs_300);
   text-transform: uppercase;
-  font-weight: bold;
   display: inline-flex;
   align-self: center;
   &:hover {

@@ -4,6 +4,7 @@ import { normalize } from "styled-normalize";
 const GlobalStyles = createGlobalStyle`
   ${normalize};
   :root {
+    --fs_xxl: 14.4rem;
     --fs_xl: 10.8rem;
     --fs_700: 4.8rem;
     --fs_600: 3.2rem;
@@ -33,8 +34,9 @@ const GlobalStyles = createGlobalStyle`
     font-size: var(--fs_300);
     background: ${(props) => props.theme.colors.background1};
     color: ${(props) => props.theme.colors.primary1};
-    font-family: 'Lato';
-    font-weight: normal;
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: -0.03em;
+    font-weight: 400;
     cursor: default;
     overflow-x: hidden;
   }
@@ -49,6 +51,9 @@ const GlobalStyles = createGlobalStyle`
   }
   .emphText {
     color: ${(props) => props.theme.colors.brightRed};
+  }
+  .iText {
+    font-style: italic;
   }
 
   @media ${(props) => props.theme.breakpoints.xxxl} {
