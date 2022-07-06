@@ -22,13 +22,14 @@ export const HeroSubtextContainer = styled.aside`
 
 export const HeroTitle = styled.h1`
   margin-top: 0;
-  font-family: "Helvetica", sans-serif;
   line-height: 85%;
-
   margin-bottom: var(--space_700);
   font-size: var(--fs_xxl);
   max-width: 960px;
   width: 100%;
+  font-weight: 400;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: -0.04em;
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 8.4rem;
     margin-bottom: var(--space_500);
@@ -52,6 +53,10 @@ export const HeroSubtitle = styled.aside`
     }
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    max-width: unset;
+    max-width: 500px;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    max-width: 400px;
+    text-transform: initial;
   }
 `;
