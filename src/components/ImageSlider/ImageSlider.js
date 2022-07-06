@@ -14,6 +14,7 @@ const ImageSlider = ({ slides }) => {
     backgroundImage: `url(${slides[currentIndex].thumbnail})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
+    border: "7px solid #D72929",
   };
 
   const leftArrow = {
@@ -38,7 +39,7 @@ const ImageSlider = ({ slides }) => {
 
   const arrowsContainer = {
     position: "absolute",
-    bottom: -40,
+    bottom: "-50px",
     right: 0,
   };
 
