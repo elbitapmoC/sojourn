@@ -1,14 +1,6 @@
 export const projects = [
   {
     title: "Digital Fitness",
-    description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    images: [
-      {
-        src: "/images/dfa-1.png",
-        alt: "Stay relevant and connected in these uncertain times",
-      },
-    ],
     thumbnail: "./images/fitness.jpg",
     tags: ["Mongo", "Express", "React", "Node"],
     href: "./dfa",
@@ -16,68 +8,17 @@ export const projects = [
   },
   {
     title: "Pfizer",
-    images: [
-      {
-        src: "/images/dfa-1.png",
-        alt: "Stay relevant and connected in these uncertain times",
-      },
-    ],
-    thumbnail: "./images/fitness.jpg",
+    thumbnail: "./images/pfizer.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     href: "./dfa",
     id: 2,
   },
   {
-    title: "Amazon Tax Day",
-    images: [
-      {
-        src: "/images/dfa-1.png",
-        alt: "Stay relevant and connected in these uncertain times",
-      },
-    ],
-    thumbnail: "./images/fitness.jpg",
-    tags: ["Mongo", "Express", "React", "Node"],
-    href: "./dfa",
-    id: 3,
-  },
-  {
-    title: "Pro Edge",
-    images: [
-      {
-        src: "/images/dfa-1.png",
-        alt: "Stay relevant and connected in these uncertain times",
-      },
-    ],
-    thumbnail: "./images/fitness.jpg",
-    tags: ["React", "JavaScript"],
-    href: "./dfa",
-    id: 4,
-  },
-  {
-    title: "BXT",
-    images: [
-      {
-        src: "/images/dfa-1.png",
-        alt: "Stay relevant and connected in these uncertain times",
-      },
-    ],
-    thumbnail: "./images/fitness.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    href: "./dfa",
-    id: 5,
-  },
-  {
     title: "Living Royalty Clothing",
-    images: [
-      {
-        src: "/images/dfa-1.png",
-        alt: "Stay relevant and connected in these uncertain times",
-      },
-    ],
-    thumbnail: "./images/fitness.jpg",
+    thumbnail: "./images/lr.jpg",
     tags: ["React", "WebRTC"],
-    href: "./dfa",
-    id: 6,
+    href: "./lrc",
+    id: 4,
   },
 ];
 
