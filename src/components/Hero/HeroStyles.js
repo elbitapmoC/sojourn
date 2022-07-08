@@ -21,6 +21,7 @@ export const HeroSubtextContainer = styled.aside`
 `;
 
 export const HeroTitle = styled.h1`
+  position: relative;
   margin-top: 0;
   line-height: 85%;
   margin-bottom: var(--space_700);
@@ -30,6 +31,13 @@ export const HeroTitle = styled.h1`
   font-weight: 400;
   font-family: Helvetica, sans-serif;
   letter-spacing: -0.04em;
+
+  img {
+    position: absolute;
+    top: -10.8rem;
+    left: 6rem;
+    z-index: -1;
+  }
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 8.4rem;
     margin-bottom: var(--space_500);

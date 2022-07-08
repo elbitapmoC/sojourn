@@ -22,9 +22,7 @@ import ImageSlider from "../ImageSlider/ImageSlider";
 const Projects = () => (
   <ProjectsContainer id="work">
     <ProjectHeading>
-      <ProjectTitle>
-        Featured Works <img src={ft.src} alt={ft.alt}></img>
-      </ProjectTitle>
+      <ProjectTitle>Featured Works</ProjectTitle>
       <ProjectsSub>
         A picture's worth a thousand words. Here's a few thousand words to show
         what I'm about. Passions &amp; ideas that move us, that pushes us to go

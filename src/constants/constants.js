@@ -147,9 +147,9 @@ export const flower = {
   alt: "Illustrations of flowers, olives branches, and bushes together",
 };
 
-export const ft = {
-  src: "/images/ft.svg",
-  alt: "featured works",
+export const web3 = {
+  src: "/images/web3.svg",
+  alt: "web3 smart contract development",
 };
 
 export const socialIcons = [

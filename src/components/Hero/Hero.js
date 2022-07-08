@@ -1,4 +1,6 @@
 import React from "react";
+import { web3 } from "../../constants/constants";
+
 import {
   HeroContainer,
   HeroTitle,
@@ -11,7 +13,8 @@ const Hero = (props) => (
   <HeroContainer>
     <HeroTextContainer>
       <HeroTitle>
-        <em>Web3</em> &amp; Brand Development
+        Smart Contract Development
+        <img src={web3.src} alt={web3.alt} />
       </HeroTitle>
       <HeroSubtextContainer>
         <HeroSubtitle>I believe in thinking differently.</HeroSubtitle>
