@@ -29,12 +29,13 @@ export const ProjectsSub = styled.p`
 export const ProjectTitle = styled.p`
   text-align: center;
   font-family: "Helvetica", sans-serif;
-  font-size: var(--fs_xxl);
+  font-size: var(--fs_xl);
+  max-width: 300px;
   letter-spacing: -0.04em;
+  line-height: 85%;
+  font-weight: 400;
   margin-top: 0;
-  max-width: 500px;
-  line-height: 75%;
-  position: relative;
+
   & img {
     position: absolute;
     left: 50%;
@@ -44,6 +45,14 @@ export const ProjectTitle = styled.p`
       width: auto;
       height: 85%;
     }
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 7.2rem;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 5.115rem;
+    max-width: 300px;
   }
 `;
 

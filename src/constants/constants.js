@@ -79,19 +79,6 @@ export const projects = [
     href: "./dfa",
     id: 6,
   },
-  {
-    title: "3D Playground",
-    images: [
-      {
-        src: "/images/dfa-1.png",
-        alt: "Stay relevant and connected in these uncertain times",
-      },
-    ],
-    thumbnail: "./images/fitness.jpg",
-    tags: ["Spline"],
-    href: "./dfa",
-    id: 7,
-  },
 ];
 
 export const companies = [

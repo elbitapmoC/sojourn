@@ -15,7 +15,7 @@ const Footer = () => {
       <aside>
         {socialIcons.map((social, i) => {
           return (
-            <Link href={social.href} key={i}>
+            <Link target="_blank" href={social.href} key={i}>
               <FooterLinkImages
                 src={social.src}
                 alt={social.alt}

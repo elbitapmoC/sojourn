@@ -2,7 +2,6 @@ import { companies } from "../constants/constants";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 const amazon = () => {
-  console.log(companies[0]);
   const width = {
     width: "100%",
     marginBottom: "3.6rem",

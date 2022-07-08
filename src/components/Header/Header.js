@@ -14,7 +14,6 @@ const Header = () => {
   const [navToggled, setNavToggled] = useState(false);
   const handleNavToggle = () => {
     setNavToggled(!navToggled);
-    console.log("clickks");
   };
 
   return (
