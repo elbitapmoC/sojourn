@@ -96,6 +96,10 @@ export const projects = [
 
 export const companies = [
   {
+    case_webP: "/images/case-amazon.webp",
+    case_jp2: "/images/case-amazon.jp2",
+    case_jxr: "/images/case-amazon.jxr",
+
     src: "/images/amazon.svg",
     alt: "Amazon logo, companies worked with testimonial.",
   },
@@ -165,8 +169,3 @@ export const socialIcons = [
     href: "https://www.linkedin.com/in/bmpjr/",
   },
 ];
-
-export const hats = {
-  web: "/images/web-hat.svg",
-  webalt: "one of the hats I would wear, web developer",
-};

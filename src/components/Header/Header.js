@@ -37,7 +37,7 @@ const Header = () => {
         </Hamburger>
         <NavLinks className={`${navToggled ? "open" : ""}`}>
           <li>
-            <Link href="./#about">
+            <Link href="./about">
               <NavLink>About.</NavLink>
             </Link>
           </li>

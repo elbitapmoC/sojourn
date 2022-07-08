@@ -48,7 +48,7 @@ export const Hamburger = styled.div`
   & div {
     width: 30px;
     height: 3px;
-    background: red;
+    background: #8c00fa;
     margin: 5px;
     transition: all 0.3s ease;
   }
@@ -82,7 +82,7 @@ export const NavLinks = styled.ul`
     display: block;
     height: 3px;
     width: 0%;
-    background-color: red;
+    background-color: #8c00fa;
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
@@ -117,7 +117,7 @@ export const NavLink = styled.a`
   color: #1a1a1a;
   transition: 0.23s ease-in-out;
   &:hover {
-    color: #d72929;
+    color: #8c00fa;
     cursor: pointer;
   }
 `;
