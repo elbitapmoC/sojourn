@@ -1,20 +1,12 @@
 import React from "react";
-import Link from "next/link";
 
 import { projects, ft } from "../../constants/constants";
 import "react-multi-carousel/lib/styles.css";
 import {
   ProjectsContainer,
-  Heading,
-  Tag,
-  TagList,
-  ImageList,
   ProjectTitle,
-  ProjectCardContainer,
   ProjectsSub,
   ProjectHeading,
-  Img,
-  numOutOfTotal,
   ImageSliderContainer,
 } from "./ProjectsStyles";
 import ImageSlider from "../ImageSlider/ImageSlider";

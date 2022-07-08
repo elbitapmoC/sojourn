@@ -12,7 +12,7 @@ const CTA = () => (
   <AboutContainer id="contact">
     <AboutTitle>let&#8217;s build the future</AboutTitle>
     <AboutDescription>
-      I can’t see into it (the future) but can definitely shape it.
+      We can’t see into it (the future) but can definitely shape it.
     </AboutDescription>
     <Link href="./#contact">
       <AboutButton>let's build</AboutButton>

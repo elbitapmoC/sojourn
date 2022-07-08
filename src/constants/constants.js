@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Digital Fitness",
+    title: "Digital Fitness Assessment",
     thumbnail: "./images/fitness.jpg",
     tags: ["Mongo", "Express", "React", "Node"],
     href: "./dfa",
@@ -10,7 +10,7 @@ export const projects = [
     title: "Pfizer",
     thumbnail: "./images/pfizer.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
-    href: "./dfa",
+    href: "./pfizer",
     id: 2,
   },
   {

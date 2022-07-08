@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -107,7 +108,9 @@ const ImageSlider = ({ slides }) => {
           </svg>
         </button>
       </span>
-      <aside style={slideStyles}></aside>
+      <Link href={slides[currentIndex].href}>
+        <aside style={slideStyles}></aside>
+      </Link>
 
       <p style={slideTitle}>{slides[currentIndex].title}</p>
     </aside>
