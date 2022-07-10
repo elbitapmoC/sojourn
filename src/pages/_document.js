@@ -32,11 +32,11 @@ export default class MyDocument extends Document {
       <Html lang="en-GB">
         <Head>
           <link
-            href="https://fonts.cdnfonts.com/css/helvetica-2?styles=65655,65653,65657"
+            href="http://fonts.cdnfonts.com/css/helvetica-2?styles=65655,65653,65654,65657"
             rel="stylesheet"
           />
 
-          {/* <link
+          <link
             rel="apple-touch-icon"
             sizes="180x180"
             href="/apple-touch-icon.png"
@@ -53,7 +53,7 @@ export default class MyDocument extends Document {
             sizes="16x16"
             href="/favicon-16x16.png"
           />
-          <link rel="manifest" href="/site.webmanifest" /> */}
+          <link rel="manifest" href="/site.webmanifest" />
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
