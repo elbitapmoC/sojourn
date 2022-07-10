@@ -1,23 +1,20 @@
+import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
-const about = () => {
-  const sectionHeight = {
-    height: "90vh",
-    position: "relative",
-  };
-  const sectionHead = {
-    top: "50%",
-    position: "absolute",
-    transform: "translateY(50%)",
-  };
+import HeaderAlt from "../components/HeaderAlt/HeaderAlt";
+import { Container } from "./../layout/LayoutStyles";
+import { aboutImage } from "../constants/constants";
 
+const about = () => {
   return (
     <>
-      <Header />
-      <section style={sectionHeight}>
-        <h1 style={sectionHead}>ABOUT</h1>
-      </section>
-      <Footer />
+      <HeaderAlt />
+      <Container>
+        <About />
+      </Container>
+      <img src={aboutImage.src} />
+      <Container>
+        <Footer />
+      </Container>
     </>
   );
 };

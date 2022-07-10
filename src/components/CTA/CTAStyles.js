@@ -22,11 +22,12 @@ export const AboutDescription = styled.p`
 export const AboutTitle = styled.h1`
   text-align: center;
   font-family: "Helvetica", sans-serif;
+  letter-spacing: -0.04em;
   font-size: var(--fs_xl);
   margin-bottom: var(--space_300);
   margin-top: 0;
   line-height: 75%;
-  font-weight: normal;
+  font-weight: 400;
 `;
 
 export const AboutButton = styled.a`

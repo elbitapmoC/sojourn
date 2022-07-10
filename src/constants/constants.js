@@ -80,6 +80,11 @@ export const web3 = {
   alt: "web3 smart contract development",
 };
 
+export const aboutImage = {
+  src: "/images/about.png",
+  alt: "Get to know us, sojourner, we're fun, approachable, the things we do allows us to leave lasting impressions. We're about building the nation.",
+};
+
 export const socialIcons = [
   {
     src: "/images/tw.svg",

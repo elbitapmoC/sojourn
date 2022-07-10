@@ -7,6 +7,7 @@ export const FooterWrapper = styled.footer`
   padding-left: var(--space_500);
   padding-right: var(--space_500);
   margin-bottom: var(--space_800);
+  margin-top: var(--space_500);
 
   @media ${(props) => props.theme.breakpoints.sm} {
     flex-direction: column-reverse;

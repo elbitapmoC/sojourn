@@ -17,8 +17,8 @@ const Projects = () => (
       <ProjectTitle>Featured Works</ProjectTitle>
       <ProjectsSub>
         A picture's worth a thousand words. Here's a few thousand words to show
-        what I'm about. Passions &amp; ideas that move us, that pushes us to go
-        beyond. Enjoy your time spent within our mind.
+        what we're about. Passions &amp; ideas that move us, that pushes us to
+        go beyond. Enjoy your time spent within our mind.
       </ProjectsSub>
     </ProjectHeading>
     <ImageSliderContainer>
