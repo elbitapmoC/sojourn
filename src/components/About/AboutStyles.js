@@ -3,8 +3,17 @@ import styled from "styled-components";
 export const Section = styled.section`
   margin-top: var(--space_xl);
   display: grid;
-  grid-template: 1fr / 1fr 3fr;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
   grid-gap: 16rem;
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: unset;
+  }
+  @media ${(props) => props.theme.breakpoints.xl} {
+  }
 `;
 
 export const AboutTitle = styled.h1`
@@ -29,12 +38,15 @@ export const AboutTitle = styled.h1`
 `;
 
 export const AboutSubtitle = styled.h2`
-  margin-top: 3rem;
   text-transform: uppercase;
   font-size: 3.2rem;
   line-height: 100%;
   font-weight: bold;
-  margin-bottom: 10.8rem;
+  margin-bottom: var(--space_800);
+
+  @media ${(props) => props.theme.breakpoints.xxl} {
+    font-size: var(--fs_600);
+  }
 `;
 
 export const Aside = styled.aside``;
@@ -42,11 +54,24 @@ export const Paragraph = styled.p`
    {
     font-weight: 300;
     font-size: 6rem;
-    margin-bottom: 9.6rem;
+    margin-bottom: var(--space_800);
     line-height: 124%;
     em {
       text-decoration: underline;
       font-style: italic;
+    }
+
+    @media ${(props) => props.theme.breakpoints.xxl} {
+      margin-bottom: 6rem;
+      font-size: 4.8rem;
+    }
+    @media ${(props) => props.theme.breakpoints.xl} {
+      margin-bottom: 6rem;
+      font-size: 3.6rem;
+    }
+    @media ${(props) => props.theme.breakpoints.md} {
+      margin-bottom: 4.8rem;
+      font-size: 2.4rem;
     }
   }
 `;
