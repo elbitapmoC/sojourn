@@ -54,7 +54,7 @@ export const Paragraph = styled.p`
    {
     font-weight: 300;
     font-size: 6rem;
-    margin-bottom: var(--space_800);
+    margin-bottom: var(--space_900);
     line-height: 124%;
     em {
       text-decoration: underline;

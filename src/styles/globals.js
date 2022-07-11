@@ -13,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
     
     --space_xxl: 36rem;
     --space_xl: 24rem;
+    --space_900: 9.6rem;
     --space_800: 9.6rem;
     --space_700: 6.4rem;
     --space_600: 4.8rem;
@@ -67,7 +68,7 @@ const GlobalStyles = createGlobalStyle`
   }
   @media ${(props) => props.theme.breakpoints.xl} {
     :root {
-      --space_800: 7.2rem;
+      --space_900: 7.2rem;
       --fs_xl: 7.2rem;
   }
   }
@@ -80,7 +81,8 @@ const GlobalStyles = createGlobalStyle`
       --fs_300: 1.2rem;
       --fs_xxl: 10.8rem;
       
-      --space_800: 6rem;
+      --space_xl: 18rem;
+      --space_900: 6rem;
       --space_600: 3.2rem;
     }
   }
@@ -90,7 +92,7 @@ const GlobalStyles = createGlobalStyle`
       --fs_xxl: 7.2rem;
 
       --space_xxl: 24rem;
-      --space_800: 4.8rem;
+      --space_900: 4.8rem;
     }
 }
 `;
