@@ -1,25 +1,28 @@
-import React from "react";
 import { AboutButton } from "../CTA/CTAStyles";
+import React from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-const Clipboard = () => {
-  state = {
-    value: "bp@sojourn.llc",
-    copied: false,
-  };
-
-  return (
-    <>
-      <CopyToClipboard
-        text={this.state.value}
-        onCopy={() => this.setState({ copied: true })}
-      ></CopyToClipboard>
-
-      <AboutButton>
-        {this.state.copied ? "Email Copied." : "let's build"}
-      </AboutButton>
-    </>
-  );
-};
+class Clipboard extends React.Component {
+  state = {};
+  render() {
+    return (
+      <>
+        <CopyToClipboard
+          text={"bp@sojourn.llc"}
+          onCopy={() => this.setState({ copiedText: "bp@sojourn.llc" })}
+        >
+          <AboutButton>
+            <i className="ni ni-active-40" />
+            <span>
+              {this.state.copiedText === "bp@sojourn.llc"
+                ? "Email copied"
+                : "Let's Build"}
+            </span>
+          </AboutButton>
+        </CopyToClipboard>
+      </>
+    );
+  }
+}
 
 export default Clipboard;

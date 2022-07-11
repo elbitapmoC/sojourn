@@ -43,6 +43,7 @@ export const AboutButton = styled.a`
   background-color: ${(props) => props.theme.colors.brightRed};
   &:hover {
     cursor: pointer;
+    background-color: white;
     color: ${(props) => props.theme.colors.primary1};
   }
 `;

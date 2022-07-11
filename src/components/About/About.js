@@ -1,11 +1,11 @@
 import React from "react";
+import Clipboard from "./../Clipboard/Clipboard";
 import {
   Section,
   AboutTitle,
   AboutSubtitle,
   Aside,
   Paragraph,
-  AboutButton,
 } from "./AboutStyles";
 import Link from "next/link";
 
@@ -31,9 +31,7 @@ const About = () => {
           of culture, fashion, design and so much more.
         </Paragraph>
         <Paragraph>Interested in building the future with us?</Paragraph>
-        <Link href="./#contact">
-          <AboutButton>let's build</AboutButton>
-        </Link>
+        <Clipboard />
       </Aside>
     </Section>
   );

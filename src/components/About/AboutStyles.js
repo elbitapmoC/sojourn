@@ -46,6 +46,7 @@ export const Paragraph = styled.p`
     line-height: 124%;
     em {
       text-decoration: underline;
+      font-style: italic;
     }
   }
 `;
