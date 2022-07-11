@@ -24,11 +24,11 @@ const About = () => {
           we expect houses to last for decades, we take this same approach with
           Web3. Start with quality and end with quality. We share our passion
           through our work and challenge the status quoa. Just so happens with
-          this, we can shape the future and bring value to the world.
+          this, we can shape the future and bring value to creators.
         </Paragraph>
         <Paragraph>
-          We aim to empower artists &amp; creators alike to push the boundaries
-          of culture, fashion, design and so much more.
+          We aim to empower artists &amp; creators to push the boundaries of
+          culture, fashion, design and so much more.
         </Paragraph>
         <Paragraph>Interested in building the future with us?</Paragraph>
         <Clipboard />
