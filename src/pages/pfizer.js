@@ -9,19 +9,7 @@ const pfizer = () => {
   return (
     <>
       <Header />
-      <picture>
-        <source
-          style={width}
-          srcSet={companies[0].case_webP}
-          type="image/webp"
-        />
-        <source style={width} srcSet={companies[0].case_jp2} type="image/jp2" />
-        <img
-          style={width}
-          src={companies[0].case_jxr}
-          type="image/vnd.ms-photo"
-        />
-      </picture>
+      PFIZER PROJECT COMING SOON!
       <Footer />
     </>
   );

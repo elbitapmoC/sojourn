@@ -33,12 +33,7 @@ const dfa = () => {
   return (
     <>
       <HeaderAlt />
-      <section style={container}>
-        <iframe
-          style={oww}
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUKGHN4VADahv9wpQMU0WJhZ3%2FDFA-Exploration%3Fpage-id%3D340%253A2%26node-id%3D491%253A15%26viewport%3D-3414%252C-50%252C0.36%26scaling%3Dscale-down%26starting-point-node-id%3D491%253A15%26show-proto-sidebar%3D1"
-        ></iframe>
-      </section>
+      <section style={container}>DFA PROJECT. COMING SOON</section>
       <Footer />
     </>
   );

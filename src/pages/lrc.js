@@ -33,13 +33,7 @@ const lrc = () => {
   return (
     <>
       <HeaderAlt />
-      <section style={container}>
-        <iframe
-          style={oww}
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0EABMJFFcUdXWBQYdTE9dx%2FCreed%3Fpage-id%3D2530%253A79%26node-id%3D2530%253A80%26viewport%3D1049%252C675%252C0.21%26scaling%3Dmin-zoom"
-          allowFullScreen
-        ></iframe>
-      </section>
+      <section style={container}>LIVING ROYALTY.. COMING SOON!</section>
       <Footer />
     </>
   );
