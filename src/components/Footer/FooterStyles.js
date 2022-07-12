@@ -4,9 +4,7 @@ export const FooterWrapper = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: var(--space_500);
-  padding-right: var(--space_500);
-  margin-bottom: var(--space_800);
+  padding-bottom: var(--space_800);
   margin-top: var(--space_500);
 
   @media ${(props) => props.theme.breakpoints.sm} {

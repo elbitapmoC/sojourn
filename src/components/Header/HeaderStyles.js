@@ -34,6 +34,7 @@ export const Nav = styled.aside`
   justify-content: space-between;
   left: 0;
   right: 0;
+  top: 0;
   z-index: 10;
   @media ${(props) => props.theme.breakpoints.sm} {
     position: fixed;
