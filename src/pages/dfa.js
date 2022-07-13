@@ -1,17 +1,21 @@
 import Footer from "../components/Footer/Footer";
 import { Container } from "../layout/LayoutStyles";
 import Case from "../components/Case/Case";
-import { LayoutDark } from "../layoutDark/LayoutDark";
-
+import HeaderAlt from "../components/HeaderAlt/HeaderAlt";
+import { lr, lr_thumbnail } from "../constants/constants";
 const dfa = () => {
+  const Image = {
+    width: "100%",
+  };
+
   return (
     <>
-      <LayoutDark>
-        <Container>
-          <Case />
-          <Footer />
-        </Container>
-      </LayoutDark>
+      <HeaderAlt />
+      <img style={Image} src={lr_thumbnail.thumbnail}></img>
+      <Container>
+        <Case content={lr} />
+        <Footer />
+      </Container>
     </>
   );
 };

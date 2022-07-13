@@ -75,6 +75,61 @@ export const flower = {
   alt: "Illustrations of flowers, olives branches, and bushes together",
 };
 
+export const lr_thumbnail = {
+  thumbnail: "/images/lr_landing.jpg",
+};
+
+export const lr = [
+  {
+    src: "/images/lr-1.png",
+    alt: "global map, the beauty for online shopping is that it can reach people across the globe.",
+  },
+  {
+    src: "/images/lr-2.png",
+    alt: "Challenge accepted",
+  },
+  {
+    src: "/images/lr-3.png",
+    alt: "UX Process. Don't go in blind.",
+  },
+  {
+    src: "/images/lr-4.png",
+    alt: "Busy busy busy bees. Moving around buzzing, moving fast, no time to slow down... MUST fly faster!",
+  },
+  {
+    src: "/images/lr-5.png",
+    alt: "global map, the beauty for online shopping is that it can reach people across the globe.",
+  },
+  {
+    src: "/images/lr-6.png",
+    alt: "Challenge accepted",
+  },
+  {
+    src: "/images/lr-7.png",
+    alt: "UX Process. Don't go in blind.",
+  },
+  {
+    src: "/images/lr-8.png",
+    alt: "Busy busy busy bees. Moving around buzzing, moving fast, no time to slow down... MUST fly faster!",
+  },
+  {
+    src: "/images/lr-9.png",
+    alt: "global map, the beauty for online shopping is that it can reach people across the globe.",
+  },
+  {
+    src: "/images/lr-10.png",
+    alt: "Challenge accepted",
+  },
+  {
+    src: "/images/lr-11.png",
+    alt: "UX Process. Don't go in blind.",
+  },
+  {
+    src: "/images/lr-12.png",
+    alt: "Busy busy busy bees. Moving around buzzing, moving fast, no time to slow down... MUST fly faster!",
+  },
+];
+
 export const web3 = {
   src: "/images/web3.svg",
   alt: "web3 smart contract development",
