@@ -108,9 +108,9 @@ const ImageSlider = ({ slides }) => {
           </svg>
         </button>
       </span>
-      <Link href={slides[currentIndex].href}>
+      <a href={slides[currentIndex].href} target="_blank">
         <aside style={slideStyles}></aside>
-      </Link>
+      </a>
 
       <p style={slideTitle}>{slides[currentIndex].title}</p>
     </aside>
