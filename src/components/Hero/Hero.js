@@ -14,9 +14,8 @@ const Hero = () => {
     <HeroContainer>
       <HeroTextContainer>
         <HeroTitle>
-          Smart Contract
+          Smart Contract Developer
           <img src={web3.src} alt={web3.alt} />
-          Developer
         </HeroTitle>
         <HeroSubtextContainer>
           <HeroSubtitle>We believe in thinking differently.</HeroSubtitle>
