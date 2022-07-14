@@ -10,14 +10,14 @@ export const projects = [
     title: "Digital Fitness Assessment",
     thumbnail: "./images/fitness.jpg",
     tags: ["Mongo", "Express", "React", "Node"],
-    href: "./dfa",
+    href: "https://medium.com/@elbitapmoC/just-around-the-corner-b2a57d50856b",
     id: 2,
   },
   {
     title: "Pfizer",
     thumbnail: "./images/pfizer.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
-    href: "./pfizer",
+    href: "https://medium.com/@elbitapmoC/just-around-the-corner-b2a57d50856b",
     id: 3,
   },
 ];
