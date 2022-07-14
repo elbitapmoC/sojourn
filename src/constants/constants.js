@@ -1,24 +1,24 @@
 export const projects = [
   {
+    title: "Living Royalty Clothing",
+    thumbnail: "./images/lr.jpg",
+    tags: ["React", "WebRTC"],
+    href: "https://medium.com/@elbitapmoC/living-royalty-case-study-f555c2137851",
+    id: 1,
+  },
+  {
     title: "Digital Fitness Assessment",
     thumbnail: "./images/fitness.jpg",
     tags: ["Mongo", "Express", "React", "Node"],
-    href: "https://medium.com/@elbitapmoC/living-royalty-case-study-f555c2137851",
-    id: 1,
+    href: "./dfa",
+    id: 2,
   },
   {
     title: "Pfizer",
     thumbnail: "./images/pfizer.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     href: "./pfizer",
-    id: 2,
-  },
-  {
-    title: "Living Royalty Clothing",
-    thumbnail: "./images/lr.jpg",
-    tags: ["React", "WebRTC"],
-    href: "./lrc",
-    id: 4,
+    id: 3,
   },
 ];
 

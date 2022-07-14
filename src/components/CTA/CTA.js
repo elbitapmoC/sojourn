@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Clipboard from "../Clipboard/Clipboard";
 
 import { AboutContainer, AboutDescription, AboutTitle } from "./CTAStyles";

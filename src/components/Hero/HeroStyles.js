@@ -35,7 +35,7 @@ export const HeroTitle = styled.h1`
   img {
     position: absolute;
     top: -10.8rem;
-    left: 6rem;
+    left: 0rem;
     z-index: -1;
   }
 

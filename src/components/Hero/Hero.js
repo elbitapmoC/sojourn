@@ -1,5 +1,6 @@
 import React from "react";
 import { web3 } from "../../constants/constants";
+// import ReactRotatingText from "react-rotating-text";
 
 import {
   HeroContainer,
@@ -14,6 +15,10 @@ const Hero = () => {
     <HeroContainer>
       <HeroTextContainer>
         <HeroTitle>
+          {/* <ReactRotatingText
+            onChange={checkText}
+            items={["Smart Contract", "Front End", "User Interface"]}
+          /> */}
           Smart Contract Developer
           <img src={web3.src} alt={web3.alt} />
         </HeroTitle>
@@ -23,7 +28,7 @@ const Hero = () => {
             By putting <span className="emphText">power</span>,{" "}
             <span className="emphText">control</span> &amp;{" "}
             <span className="emphText">confidentiality</span> back into the
-            hands of creators.
+            hands of users and creators alike.
           </HeroSubtitle>
         </HeroSubtextContainer>
       </HeroTextContainer>
