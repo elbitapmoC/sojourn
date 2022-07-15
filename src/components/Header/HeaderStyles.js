@@ -100,7 +100,7 @@ export const NavLinks = styled.ul`
       width: 100%;
       text-align: center;
       background-color: ${(props) => props.theme.colors.background1};
-      border-top: 1.25px solid rgba(52, 52, 52, 0.125);
+      border-top: 1.25px solid rgba(255, 255, 255, 0.2);
       & a {
         display: block;
         padding: 2.4rem;
