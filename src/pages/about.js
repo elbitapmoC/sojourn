@@ -1,6 +1,6 @@
 import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
-import HeaderAlt from "../components/HeaderAlt/HeaderAlt";
+import Header from "../components/Header/Header";
 import { Container } from "./../layout/LayoutStyles";
 import { aboutImage } from "../constants/constants";
 
@@ -11,7 +11,7 @@ const about = () => {
 
   return (
     <>
-      <HeaderAlt />
+      <Header />
       <Container>
         <About />
       </Container>

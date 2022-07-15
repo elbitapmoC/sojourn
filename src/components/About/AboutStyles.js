@@ -21,7 +21,7 @@ export const AboutTitle = styled.h1`
   margin-top: 0;
   line-height: 85%;
   margin-bottom: var(--space_700);
-  font-size: var(--fs_xxl);
+  font-size: var(--fs_xl);
   font-weight: 300;
   font-family: Helvetica, sans-serif;
   letter-spacing: -0.04em;

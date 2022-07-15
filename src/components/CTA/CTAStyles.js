@@ -16,6 +16,7 @@ export const AboutContainer = styled.section`
 export const AboutDescription = styled.p`
   width: 100%;
   font-size: var(--fs_600);
+  font-weight: 300;
   text-align: center;
 `;
 
@@ -45,5 +46,8 @@ export const AboutButton = styled.a`
     cursor: pointer;
     background-color: white;
     color: ${(props) => props.theme.colors.primary1};
+  }
+  span {
+    font-weight: 700;
   }
 `;

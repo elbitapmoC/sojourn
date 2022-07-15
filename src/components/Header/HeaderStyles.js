@@ -27,16 +27,15 @@ export const LogoAlt = styled.div`
 `;
 
 export const Nav = styled.aside`
-  position: fixed;
+  position: relative;
   border-bottom: 1px solid ${(props) => props.theme.colors.primary1};
   background-color: ${(props) => props.theme.colors.background1};
   display: flex;
   justify-content: space-between;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 10;
   @media ${(props) => props.theme.breakpoints.sm} {
+    left: 0;
+    right: 0;
+    z-index: 10;
     position: fixed;
     bottom: 0;
     top: unset;

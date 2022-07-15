@@ -2,89 +2,78 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.section`
   position: relative;
-  height: 100vh;
+  height: 90vh;
 `;
 
-export const HeroTextContainer = styled.aside`
+export const ImageContainer = styled.aside`
+  text-align: center;
+  position: relative;
+  max-width: 1440px;
   position: absolute;
-  bottom: 30%;
-  transform: translateY(30%);
-`;
-
-export const HeroSubtextContainer = styled.aside`
-  display: flex;
-  justify-content: space-between;
-  max-width: 960px;
-  @media ${(props) => props.theme.breakpoints.lg} {
-    flex-direction: column;
+  left: 50%;
+  bottom: 7.2rem;
+  transform: translateX(-50%);
+  width: 100%;
+  img {
+    width: 100%;
+  }
+  p {
+    margin-top: 2.4rem;
   }
 `;
 
 export const HeroTitle = styled.h1`
-  position: relative;
-  margin-top: 0;
-  line-height: 85%;
-  margin-bottom: var(--space_700);
-  font-size: var(--fs_xxl);
-  max-width: 600px;
-  width: 100%;
-  font-weight: 400;
   font-family: Helvetica, sans-serif;
+  font-size: var(--fs_xl);
   letter-spacing: -0.04em;
+  position: absolute;
+  text-align: center;
+  line-height: 85%;
+  max-width: 630px;
+  font-weight: 400;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -20%);
+  z-index: -1;
 
   img {
     position: absolute;
-    top: -10.8rem;
-    left: 0rem;
+    top: -9.6rem;
+    left: 6rem;
     z-index: -1;
+    height: 90%;
+  }
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    font-size: 9rem;
+    img {
+      transform: translate(-50%);
+      top: -8.4rem;
+      height: 55%;
+      left: 50%;
+    }
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
     img {
-      top: -9.6rem;
-      left: 4rem;
-      height: 50%;
-    }
-  }
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 8.4rem;
-    margin-bottom: var(--space_500);
-    img {
-      top: -7.2rem;
-      left: 3.2rem;
-      height: 75%;
+      transform: translate(-50%);
+      top: -8.4rem;
+      height: 55%;
+      left: 50%;
     }
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 5.115rem;
-    margin-bottom: var(--space_500);
-    max-width: 300px;
-    img {
-      top: -4.8rem;
-      left: 2.4rem;
-      height: 50%;
-    }
-  }
-`;
+    font-size: 7.2rem;
 
-export const HeroSubtitle = styled.aside`
-  text-transform: uppercase;
-  font-size: var(--fs_600);
-  max-width: 500px;
-  width: 100%;
-  @media ${(props) => props.theme.breakpoints.lg} {
-    &:not(:last-child) {
-      margin-right: unset;
-      margin-bottom: var(--fs_600);
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    img {
+      transform: translate(-50%);
+      top: -8.4rem;
+      height: 55%;
+      left: 50%;
     }
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 500px;
-  }
-  @media ${(props) => props.theme.breakpoints.sm} {
-    max-width: 400px;
-    text-transform: initial;
   }
 `;

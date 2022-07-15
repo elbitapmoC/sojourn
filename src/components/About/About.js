@@ -7,7 +7,6 @@ import {
   Aside,
   Paragraph,
 } from "./AboutStyles";
-import Link from "next/link";
 
 const About = () => {
   return (

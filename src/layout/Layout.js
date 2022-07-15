@@ -2,15 +2,13 @@ import React from "react";
 
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import { Container, Background } from "./LayoutStyles";
-import { flower } from "../constants/constants";
+import { Container } from "./LayoutStyles";
 
 export const Layout = ({ children }) => {
   return (
     <>
-      <Background src={flower.src} alt={flower.alt} />
+      <Header />
       <Container>
-        <Header />
         <main>{children}</main>
         <Footer />
       </Container>

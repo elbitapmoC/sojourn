@@ -5,7 +5,7 @@ const GlobalStyles = createGlobalStyle`
   ${normalize};
   :root {
     --fs_xxl: 14.4rem;
-    --fs_xl: 10.8rem;
+    --fs_xl: 9.6rem;
     --fs_700: 4.8rem;
     --fs_600: 3.2rem;
     --fs_500: 2.4rem;
@@ -89,7 +89,6 @@ const GlobalStyles = createGlobalStyle`
   }
   @media ${(props) => props.theme.breakpoints.lg} {
     :root {
-      --fs_xl: 6rem;
       --fs_700: 2.4rem;
       --fs_600: 2rem;
       --fs_500: 1.6rem;

@@ -75,6 +75,11 @@ export const flower = {
   alt: "Illustrations of flowers, olives branches, and bushes together",
 };
 
+export const campfire = {
+  src: "/images/campfire.svg",
+  alt: "Solana summer. I spent my summer with Crypto, NFT's and DAO's. Purchasing and collecting them. Now I get to spend time ",
+};
+
 export const lr_thumbnail = {
   thumbnail: "/images/lr_landing.jpg",
 };
