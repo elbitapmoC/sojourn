@@ -17,8 +17,15 @@ export const ImageContainer = styled.aside`
   img {
     width: 100%;
   }
-  p {
-    margin-top: 2.4rem;
+`;
+
+export const ImageText = styled.p`
+  margin-top: 2.4rem;
+  font-style: italic;
+  line-height: 125%;
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 14px;
+    letter-spacing: 0.01rem;
   }
 `;
 
