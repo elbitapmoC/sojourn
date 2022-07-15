@@ -65,7 +65,6 @@ export const HeroTitle = styled.h1`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 7.2rem;
-
     left: 50%;
     top: 30%;
     transform: translate(-50%, -30%);

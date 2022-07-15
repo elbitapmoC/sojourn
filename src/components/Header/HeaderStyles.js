@@ -114,7 +114,7 @@ export const NavLinks = styled.ul`
 
 export const NavLink = styled.a`
   font-size: var(--fs_500);
-  color: #1a1a1a;
+  color: ${(props) => props.theme.colors.primary1};
   transition: 0.23s ease-in-out;
   &:hover {
     color: #8c00fa;

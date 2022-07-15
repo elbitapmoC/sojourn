@@ -33,19 +33,20 @@ export const AboutTitle = styled.h1`
 
 export const AboutButton = styled.a`
   margin-top: var(--space_500);
-  border: 3px solid black;
+  border: 3px solid rgba(255, 255, 255, 0.35);
   padding-top: var(--space_300);
   padding-bottom: var(--space_300);
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: var(--fs_300);
   text-transform: uppercase;
-  color: ${(props) => props.theme.colors.background1};
+  color: ${(props) => props.theme.colors.primary1};
   background-color: ${(props) => props.theme.colors.brightRed};
   &:hover {
     cursor: pointer;
     background-color: white;
-    color: ${(props) => props.theme.colors.primary1};
+    color: ${(props) => props.theme.colors.brightRed};
+    border: 3px solid rgba(122, 5, 215, 0.75);
   }
   span {
     font-weight: 700;
