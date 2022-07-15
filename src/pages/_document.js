@@ -58,9 +58,9 @@ export default class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
-            content="#FFF8EB"
+            content="#1A1A1A"
           />
-          <meta name="theme-color" content="#FFF8EB" />
+          <meta name="theme-color" content="#1A1A1A" />
           <meta
             name="description"
             content="Sojourner LLC, Inhabitants of the land. Scripture &amp; integrity oriented company. We aim to be as Jacob was to Laban."
