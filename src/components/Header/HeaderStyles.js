@@ -28,7 +28,7 @@ export const LogoAlt = styled.div`
 
 export const Nav = styled.aside`
   position: relative;
-  border-bottom: 1px solid ${(props) => props.theme.colors.primary1};
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   background-color: ${(props) => props.theme.colors.background1};
   display: flex;
   justify-content: space-between;
