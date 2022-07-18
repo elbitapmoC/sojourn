@@ -36,7 +36,7 @@ export const HeroTitle = styled.h1`
   position: absolute;
   text-align: center;
   line-height: 85%;
-  max-width: 630px;
+  max-width: 600px;
   font-weight: 400;
   color: #ffc837;
   left: 50%;
