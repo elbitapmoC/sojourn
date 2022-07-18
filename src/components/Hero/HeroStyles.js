@@ -36,7 +36,7 @@ export const HeroTitle = styled.h1`
   position: absolute;
   text-align: center;
   line-height: 85%;
-  max-width: 600px;
+  max-width: 475px;
   font-weight: 400;
   color: #ffc837;
   left: 50%;
@@ -46,28 +46,27 @@ export const HeroTitle = styled.h1`
 
   img {
     position: absolute;
-    top: -9.6rem;
+    top: -14.4rem;
     left: -8.4rem;
     z-index: -1;
-    height: 90%;
+    height: 85%;
   }
 
   @media ${(props) => props.theme.breakpoints.xl} {
     font-size: 9rem;
     img {
-      transform: translate(-50%);
-      top: -8.4rem;
+      left: -3.6rem;
+      top: -12rem;
       height: 75%;
-      left: 3.6rem;
     }
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
     img {
       transform: translateX(-2.4rem);
-      top: -8.4rem;
-      height: 75%;
-      left: -2.4rem;
+      left: -6rem;
+      top: -10.8rem;
+      height: 65%;
     }
   }
 
@@ -77,8 +76,8 @@ export const HeroTitle = styled.h1`
     top: 30%;
     transform: translate(-50%, -30%);
     img {
-      transform: translate(-50%);
-      top: -7.8rem;
+      transform: translateX(-50%);
+      top: -10.8rem;
       height: 75%;
       left: 50%;
     }
