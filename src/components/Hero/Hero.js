@@ -13,7 +13,7 @@ const Hero = () => {
     <>
       <HeroContainer>
         <HeroTitle>
-          Smart Contract Developer
+          Front End Developer
           <img src={web3.src} alt={web3.alt} />
         </HeroTitle>
         <ImageContainer>
