@@ -14,11 +14,18 @@ export const projects = [
     id: 2,
   },
   {
+    title: "Amazon",
+    thumbnail: "./images/tax.jpg",
+    tags: ["Mongo", "Express", "React", "Node"],
+    href: "https://medium.com/@elbitapmoC/amazon-3dea75c84d56",
+    id: 3,
+  },
+  {
     title: "Pfizer",
     thumbnail: "./images/pfizer.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
-    href: "https://medium.com/@elbitapmoC/just-around-the-corner-b2a57d50856b",
-    id: 3,
+    href: "https://medium.com/@elbitapmoC/pfizer-d936c35d2e5e",
+    id: 4,
   },
 ];
 
