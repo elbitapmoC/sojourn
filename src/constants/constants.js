@@ -10,7 +10,7 @@ export const projects = [
     title: "Digital Fitness Assessment",
     thumbnail: "./images/fitness.jpg",
     tags: ["Mongo", "Express", "React", "Node"],
-    href: "https://medium.com/@elbitapmoC/just-around-the-corner-b2a57d50856b",
+    href: "https://medium.com/@elbitapmoC/digital-fitness-da95fe43b2e8",
     id: 2,
   },
   {
