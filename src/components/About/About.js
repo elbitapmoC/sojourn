@@ -15,7 +15,7 @@ const About = () => {
       <Aside>
         <AboutSubtitle>
           Sojourner - Scripture &amp; integrity first company. We aim to be as
-          Jacob was to Laban.
+          Joseph was to pharoah.
         </AboutSubtitle>
         <Paragraph>
           We believe, the{" "}
