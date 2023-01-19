@@ -46,27 +46,21 @@ export const HeroTitle = styled.h1`
 
   img {
     position: absolute;
-    top: -14.4rem;
-    left: -8.4rem;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -10.8rem;
     z-index: -1;
-    height: 85%;
+    height: 30%;
   }
 
   @media ${(props) => props.theme.breakpoints.xl} {
     font-size: 9rem;
-    img {
-      left: -3.6rem;
-      top: -12rem;
-      height: 75%;
-    }
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
     img {
-      transform: translateX(-2.4rem);
-      left: -6rem;
       top: -10.8rem;
-      height: 65%;
+      height: 30%;
     }
   }
 
@@ -75,11 +69,5 @@ export const HeroTitle = styled.h1`
     left: 50%;
     top: 30%;
     transform: translate(-50%, -30%);
-    img {
-      transform: translateX(-50%);
-      top: -10.8rem;
-      height: 75%;
-      left: 50%;
-    }
   }
 `;

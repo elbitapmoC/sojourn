@@ -19,7 +19,7 @@ const Hero = () => {
           <img src={web3.src} alt={web3.alt} />
         </HeroTitle>
         <ImageContainer>
-          <img src={campfire.src} alt={campfire.alt}></img>
+          <img draggable="false" src={campfire.src} alt={campfire.alt}></img>
           <ImageText>
             We believe in thinking differently. By putting{" "}
             <span className="emphText">power</span>,{" "}

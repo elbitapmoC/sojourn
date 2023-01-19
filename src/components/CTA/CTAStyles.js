@@ -44,8 +44,7 @@ export const AboutButton = styled.a`
   background-color: ${(props) => props.theme.colors.brightRed};
   &:hover {
     cursor: pointer;
-    background-color: white;
-    color: ${(props) => props.theme.colors.brightRed};
+    background-color: #540296;
     border: 3px solid rgba(122, 5, 215, 0.75);
   }
   span {

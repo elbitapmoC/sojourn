@@ -21,7 +21,7 @@ const About = () => {
           We believe, the{" "}
           <em>building of anything starts with a strong foundation</em>&#9866;
           we expect houses to last for decades, we take this same approach with
-          Web3. Start with quality and end with quality. We share our passion
+          web. Start with quality and end with quality. We share our passion
           through our work and challenge the status quoa. Just so happens with
           this, we can shape the future and bring value to creators.
         </Paragraph>

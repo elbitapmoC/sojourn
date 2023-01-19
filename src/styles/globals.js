@@ -51,7 +51,7 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
   .emphText {
-    color: ${(props) => props.theme.colors.brightRed};
+    color: #ffc837;
   }
   .iText {
     font-style: italic;
