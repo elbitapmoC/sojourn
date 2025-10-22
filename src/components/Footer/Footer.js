@@ -9,9 +9,11 @@ import {
 import { socialIcons } from "../../constants/constants";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  
   return (
     <FooterWrapper>
-      <FooterParagraph>&copy; Sojourner | 2025</FooterParagraph>
+      <FooterParagraph>&copy; Sojourner | 2022–{currentYear}</FooterParagraph>
       <aside>
         {socialIcons.map((social, i) => {
           return (
