@@ -13,9 +13,9 @@ const Hero = () => {
     <>
       <HeroContainer>
         <HeroTitle>
-          Frontend
+          Sr. User
           <br />
-          Software Engineer
+          Interface Engineer
           <img src={web3.src} alt={web3.alt} />
         </HeroTitle>
         <ImageContainer>

@@ -11,7 +11,7 @@ import { socialIcons } from "../../constants/constants";
 const Footer = () => {
   return (
     <FooterWrapper>
-      <FooterParagraph>&copy; Sojourner | 2022</FooterParagraph>
+      <FooterParagraph>&copy; Sojourner | 2025</FooterParagraph>
       <aside>
         {socialIcons.map((social, i) => {
           return (
