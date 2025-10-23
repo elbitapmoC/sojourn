@@ -1,8 +1,8 @@
 export const projects = [
     {
-    title: "AI Email Marketing Platform",
+    title: "LOZ Email Templates",
     thumbnail: "./images/email.jpg",
-    tags: ["React", "TypeScript", "AI", "Tailwind"],
+    tags: ["React", "TypeScript", "AI", "Tailwind", "MJML", "TJML", "React Email"],
     href: "https://loz-marketing-campaign.vercel.app/",
     id: 1,
   },
