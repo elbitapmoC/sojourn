@@ -1,31 +1,38 @@
 export const projects = [
+    {
+    title: "AI Email Marketing Platform",
+    thumbnail: "./images/email.jpg",
+    tags: ["React", "TypeScript", "AI", "Tailwind"],
+    href: "https://loz-marketing-campaign.vercel.app/",
+    id: 1,
+  },
   {
     title: "Living Royalty Clothing",
     thumbnail: "./images/lr.jpg",
     tags: ["React", "WebRTC"],
     href: "https://medium.com/@elbitapmoC/living-royalty-case-study-f555c2137851",
-    id: 1,
+    id: 2,
   },
   {
     title: "Digital Fitness Assessment",
     thumbnail: "./images/fitness.jpg",
     tags: ["Mongo", "Express", "React", "Node"],
     href: "https://medium.com/@elbitapmoC/digital-fitness-da95fe43b2e8",
-    id: 2,
+    id: 3,
   },
   {
     title: "Amazon",
     thumbnail: "./images/tax.jpg",
     tags: ["Mongo", "Express", "React", "Node"],
     href: "https://medium.com/@elbitapmoC/amazon-3dea75c84d56",
-    id: 3,
+    id: 4,
   },
   {
     title: "Pfizer",
     thumbnail: "./images/pfizer.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     href: "https://medium.com/@elbitapmoC/pfizer-d936c35d2e5e",
-    id: 4,
+    id: 5,
   },
 ];
 
